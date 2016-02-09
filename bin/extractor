@@ -1,0 +1,71 @@
+#!/usr/bin/env python
+
+import os
+import sys
+import argparse
+import subprocess
+
+# set root folder
+sys.path.append('..')
+
+from alpha.lib import utils
+
+# main runner
+def main(args):
+    # get extractor path
+    extractor   = os.path.join(utils.root, 'extractor', 'extractor.js')
+    # get the domain
+    site        = utils.parse_url(args.url).netloc
+    # get the site path
+    path        = utils.get_data_path(site)
+    # generate the id
+    id          = utils.generate_id(utils.parse_url(args.url).path)
+    # load urls file
+    urls        = utils.load_urls(site)
+
+    # reset everything?
+    if not args.reset == None:
+        # remove the entire folder
+        utils.clean_data(site)
+
+    # target path
+    target = os.path.join(path['raw'], id)
+
+    # root path does not exists?
+    if not os.path.exists(path['raw']):
+        # create directory
+        os.makedirs(path['raw'])
+
+    # target exists?
+    if os.path.exists(target) and (id in urls):
+        print 'site already extracted.'
+        sys.exit()
+
+    # run extractor
+    print '[extractor] #%s: %s' % (id, args.url)
+    subprocess.call('cd "%(path)s" && phantomjs "%(extractor)s" "%(url)s" "%(label)s" > "%(label)s.log" 2>&1' % {
+        'path'      : path['raw'],
+        'extractor' : extractor,
+        'url'       : args.url,
+        'label'     : target
+    }, shell=True)
+
+    # save url
+    utils.save_url(site, args.url, id)
+    
+# argument parser
+def parse_args():
+    # initialize argument parser
+    parser = argparse.ArgumentParser(prog='extractor', description='Web page extractor using phantomjs.')
+
+    # set url argument
+    parser.add_argument('-u', '--url', nargs='?', const=str, required=True, help='webpage url to extract e.g http://galleon.ph/product/124')
+    # set url files path
+    parser.add_argument('-f', '--url-file', nargs='?', const=str, required=False, help='urls file path to extract')
+    # set reset argument
+    parser.add_argument('-r', '--reset', nargs='?', const=int, required=False, help='remove existing extracted, clustered and trained data')
+    
+    return parser.parse_args()
+
+if __name__ == '__main__':
+    main(parse_args());

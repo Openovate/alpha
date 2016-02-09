@@ -1,0 +1,30 @@
+After clustering pages possible next actions are:
+
+- Process further clustered data by analyzing text
+  that contains hints for example if we are targeting
+  the title, the title must not contain words that a
+  detail, a brand, a category or a specification / 
+  attributes could contain,
+
+  further explanation:
+
+  Title:
+  Samsung Galaxy S6
+
+  Description:
+  Product Details for Samsung Galaxy S6
+
+  Specifications:
+  Specification of Samsung Galaxy S6
+
+  Brand:
+  Sold by : Samsung
+
+  We can identify the title if the text does
+  not contain "Product Details for", "Specification of",
+  "Sold by" etc.
+
+- Prices can be processed in a heuristic way,
+  if the text contains sign, or is decimal formatted
+  or is near the title and image block or is strikethrough etc..
+
