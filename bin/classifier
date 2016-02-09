@@ -1,0 +1,269 @@
+#!/usr/bin/env python
+
+import os
+import sys
+import argparse
+import collections
+import numpy as np
+import random
+
+sys.path.append('..')
+
+from sklearn.feature_extraction import DictVectorizer
+from sklearn import svm, preprocessing, cross_validation
+from sklearn.metrics import precision_recall_curve, auc, classification_report, precision_recall_fscore_support
+
+from alpha.lib import utils
+from alpha.lib import processors
+from alpha.lib import tokenizers
+from alpha.lib import analyzers
+from alpha.lib import clusterers
+
+def main(args):
+    # get the data path
+    path = utils.get_data_path(args.site)
+    # get the site urls
+    urls = utils.load_urls(args.site)
+
+    # load data
+    pages = []
+
+    for id, url in enumerate(urls):
+        # site id
+        site_id = url
+        # get the site url
+        url     = urls[url]['url']
+
+        # valid url?
+        if not url.strip():
+            continue
+
+        # load page data
+        page = utils.load_raw_data(args.site, site_id)
+
+        # initialize processor
+        processor = processors.Processor([page], tokenizer=tokenizers.GenericTokenizer, analyzer=analyzers.LongestAnalyzer)
+        # extract features
+        features  = processor.extract()
+
+        # cluster features
+        clusterer = clusterers.DBSCAN()
+        # get the labels
+        labels = clusterer.cluster(features).labels_
+
+        # collect clusters
+        clusters = collections.defaultdict(list)
+        # iterate on each texts and labels
+        for text, label in zip(processor.texts, labels):
+            # append text on clusters
+            clusters[int(label)].append(text)
+
+        # load the gold text from page
+        gold_text = ' '.join(page['gold_text'])
+        # tokenize gold text
+        gold_text = processor.tokenizer.tokenize(gold_text)
+
+        # max scoe
+        max_score  = 0
+        # total best score
+        best_label = None
+
+        # iterate on each clusters
+        for label, texts in clusters.iteritems():
+            # collect tokens
+            tokens = ''
+
+            # iterate on each text
+            for text in texts:
+                # append tokens
+                tokens += text['tokens']
+
+            # analyze and score token
+            score = processor.analyzer.get_similarity(tokens, gold_text)
+
+            # get the best score
+            if score > max_score:
+                # get new max score
+                max_score  = score
+                # get new best label
+                best_label = label
+
+        # all best lables, make it a positive sample
+        for text in clusters[best_label]:
+            # set as positive sample
+            text['label'] = 1
+
+
+        # collect page texts
+        page_texts = []
+        # iterate on each page texts
+        for label, texts in clusters.iteritems():
+            # combine page texts
+            page_texts += texts
+
+        # shuffle page text
+        random.shuffle(page_texts)
+        # append page text to pages
+        pages.append(page_texts)
+
+    # collect continuous features
+    continuous_features = []
+    # collect discrete features
+    discrete_features   = []
+    # collect labels
+    labels = []
+
+    # itreate on each pages
+    for page in pages:
+        # iterate on each text in page
+        for text in page:
+            # get the text length
+            text_length  = len(text['tokens'])
+            # calculate text area
+            area         = text['bound']['height'] * text['bound']['width']
+
+            try:
+                # calculate text density
+                text_density = float(text_length) / float(area)
+            except:
+                # set default density
+                text_density = 0
+
+            # continuous_feature
+            continuous_feature = [text_length, text_density]
+            # append continuos features
+            continuous_features.append(continuous_feature)
+
+            # discrete features
+            discrete_feature         = dict()
+            # get computed styles
+            discrete_feature         = dict(text['computed'].items())
+            # get tag path
+            discrete_feature['path'] = ' > '.join(text['path'])
+            # combine classess
+            discrete_feature['class'] = ' > '.join([
+                '%s%s' % (
+                    selector['name'],
+                    '.' + '.'.join(selector['classes']) if selector['classes'] else '',
+                )
+                for selector in text['selector']
+            ])
+            
+            # append discrete feature
+            discrete_features.append(discrete_feature)
+
+            # label
+            labels.append(text['label'])
+
+    # vectorizer
+    vectorizer          = DictVectorizer()
+    # transform discrete features to vectorized data
+    discrete_features   = vectorizer.fit_transform(discrete_features).toarray()
+    # convert continuous features to array
+    continuous_features = np.array(continuous_features)
+    # convert labels to array
+    labels              = np.array(labels).astype(np.float32)
+
+    # scale features
+    features = preprocessing.scale(features)
+
+    print features
+
+    # stack up continuous and discrete features
+    features = np.hstack([continuous_features, discrete_features]).astype(np.float32)
+    
+    print features.shape
+
+    precisions  = []
+    recalls     = []
+    f1scores    = []
+    supports    = []
+
+    # rs = cross_validation.KFold(len(labels), n_folds=4, shuffle=False, random_state=0)
+    # for train_index, test_index in rs:
+    #     print 'training size = %d, testing size = %d' % (len(train_index), len(test_index))
+
+    #     clf = svm.SVC(verbose=False, kernel='linear', probability=False, random_state=0, cache_size=2000, class_weight='auto')
+    #     clf.fit(features[train_index], labels[train_index])
+
+    #     print clf.n_support_
+
+    #     """
+    #     negatives = []
+    #     for i in clf.support_[:clf.n_support_[0]]:
+    #         negatives.append(all_texts[i])
+
+    #     positives = []
+    #     for i in clf.support_[clf.n_support_[0]:]:
+    #         positives.append(all_texts[i])
+
+    #     stats(negatives, positives)
+    #     """
+
+    #     print "training:"
+    #     predicted = clf.predict(features[train_index])
+    #     print classification_report(labels[train_index], predicted)
+
+    #     print "testing:"
+    #     predicted = clf.predict(features[test_index])
+    #     print classification_report(labels[test_index], predicted)
+
+    #     precision, recall, f1score, support = precision_recall_fscore_support(labels[test_index], predicted)
+
+    #     precisions.append(precision)
+    #     recalls.append(recall)
+    #     f1scores.append(f1score)
+    #     supports.append(support)
+
+    # precisions = np.mean(np.array(precisions), axis=0)
+    # recalls = np.mean(np.array(recalls), axis=0)
+    # f1scores = np.mean(np.array(f1scores), axis=0)
+    # supports = np.mean(np.array(supports), axis=0)
+
+    # for label in range(2):
+    #     print '%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label])
+
+    # return
+
+def stats(negatives, positives):
+    negative_features = set()
+    positives_features = set()
+    negative_counts = collections.defaultdict(lambda: 0)
+    positives_counts = collections.defaultdict(lambda: 0)
+
+    for text in negatives:
+        negative_features |= set(text['computed'].items())
+
+    for text in positives:
+        positives_features |= set(text['computed'].items())
+
+    common = negative_features & positives_features
+
+    for text in negatives:
+        for key, value in text['computed'].iteritems():
+            if (key, value) not in common:
+                negative_counts[(key, value)] += 1
+
+    for text in positives:
+        for key, value in text['computed'].iteritems():
+            if (key, value) not in common:
+                positives_counts[(key, value)] += 1
+
+    print 'negatives: '
+    print list(reversed(sorted(filter(lambda x: x[1] > 1, negative_counts.items()), key=lambda pair: pair[1])))[:10]
+    print 'positives: '
+    print list(reversed(sorted(filter(lambda x: x[1] > 1, positives_counts.items()), key=lambda pair: pair[1])))[:10]
+
+
+# argument parser
+def parse_args():
+    # initialize argument parser
+    parser = argparse.ArgumentParser(prog='extractor', description='SVM Classifier with KFold cross validation tool.')
+
+    # set site argument
+    parser.add_argument('-s', '--site', nargs='?', const=str, required=True, help='webpage data to classify')
+   
+    return parser.parse_args()
+
+if __name__ == '__main__':
+    main(parse_args())

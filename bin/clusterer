@@ -1,0 +1,130 @@
+#!/usr/bin/env python
+
+import os
+import sys
+import argparse
+import simplejson as json
+
+# set root folder
+sys.path.append('..')
+
+from alpha.lib import utils
+from alpha.lib import clusterers
+from alpha.lib import processors
+
+# confidence threshold
+CONFIDENCE  = 0.5
+# score threshold
+SCORE       = 1000.0
+
+def main(args):
+    # get the site path
+    path        = utils.get_data_path(args.site)
+    # load urls file
+    urls        = utils.load_urls(args.site)
+    # get ids
+    ids         = [id for i, id in enumerate(urls)]
+
+    # keep track of clustered data
+    clustered = []
+
+    # if cluster folder does not exists
+    if not os.path.exists(path['cluster']):
+        # make that directory
+        os.makedirs(path['cluster'])
+
+    # if urls is not enough
+    if len(urls) < 3:
+        print 'not enough data for clustering, please extract atleast 3 different pages in ' + args.site
+        sys.exit()
+
+    # iterate on each urls
+    for count in range(2, len(urls) + 1):
+        # get the site id
+        site_id = ids[count-1]
+
+        print '[clusterer] clustering with %d ' % count
+
+        # load data
+        data = [utils.load_raw_data(args.site, ids[i]) for i in range(count)]
+        data = data[:count-1]
+
+        # process data
+        processor = processors.Processor(data)
+        features = processor.extract()
+
+        # clustering
+        clusterer = clusterers.DBSCAN()
+        labels = clusterer.cluster(features).labels_
+
+        # score
+        clusters = processor.score(labels)
+
+        # keep track of clustered data
+        clustered.append(clusters)
+
+        # save clustered data
+        with open(os.path.join(path['cluster'], '%s.json' % site_id), 'w') as f:
+            f.write(json.dumps(clusters, indent=2, ensure_ascii=False).encode('utf8'))
+
+    # report data
+    with open(os.path.join(path['cluster'], 'report.json'), 'w+') as f:
+        f.write(json.dumps(clustered_report(clustered), indent=2, ensure_ascii=False).encode('utf8'))
+
+    # save latest data
+    with open(os.path.join(path['cluster'], 'clustered.json'), 'w+') as f:
+        f.write(json.dumps(clustered, indent=2, ensure_ascii=False).encode('utf8'))
+
+# print clustering report
+def clustered_report(clustered):
+    # report data
+    report = []
+
+    # iterate on each clustered data
+    for clusters in clustered:
+        # selecting selectors
+        selectors = []
+        # selecting texts
+        texts     = []
+
+        # iterate on each clusters
+        for cluster in clusters:
+            # low confidence and score?
+            if cluster['confidence'] < CONFIDENCE and cluster['score'] < SCORE:
+                continue
+
+            # get texts
+            for text in cluster['pages']:
+                texts.append({
+                    'confidence'        : cluster['confidence'],
+                    'coherent_score'    : cluster['score'],
+                    'url'               : text,
+                    'content'           : cluster['pages'][text]['content'],
+                    'texts'             : cluster['pages'][text]['text'],
+                    'score'             : cluster['pages'][text]['score']
+                })
+
+            # get selectors
+            for selector in cluster['selectors'].values():
+                # if valid selector
+                if selector and selector[-1]['name'] != 'a':
+                    # append selectors
+                    selectors.append(selector)
+
+            # append report
+            report.append({ 'texts' : texts, 'selectors' : selectors })
+
+    return report
+
+# argument parser
+def parse_args():
+    # initialize argument parser
+    parser = argparse.ArgumentParser(prog='clusterer', description='Data DBSCAN clustering tool')
+
+    # set site argument
+    parser.add_argument('-s', '--site', nargs='?', const=str, required=True, help='extracted website data to cluster e.g galleon.ph')
+   
+    return parser.parse_args()
+
+if __name__ == '__main__':
+    main(parse_args())
