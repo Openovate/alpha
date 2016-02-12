@@ -61,7 +61,8 @@ def main(args):
         clusters = processor.score(labels)
 
         # keep track of clustered data
-        clustered.append(clusters)
+        if len(clusters) > 0:
+            clustered.append(clusters)
 
         # save clustered data
         with open(os.path.join(path['cluster'], '%s.json' % site_id), 'w') as f:
