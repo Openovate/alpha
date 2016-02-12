@@ -167,92 +167,116 @@ def main(args):
     # scale features
     features = preprocessing.scale(features)
 
-    print features
+    # print features
 
     # stack up continuous and discrete features
     features = np.hstack([continuous_features, discrete_features]).astype(np.float32)
     
-    print features.shape
-
     precisions  = []
     recalls     = []
     f1scores    = []
     supports    = []
 
-    # rs = cross_validation.KFold(len(labels), n_folds=4, shuffle=False, random_state=0)
-    # for train_index, test_index in rs:
-    #     print 'training size = %d, testing size = %d' % (len(train_index), len(test_index))
+    # 4 fold cross validation
+    rs = cross_validation.KFold(len(labels), n_folds=4, shuffle=False, random_state=0)
+    # iterate on each cross validated
+    for train_index, test_index in rs:
+        print 'training size = %d, testing size = %d' % (len(train_index), len(test_index))
 
-    #     clf = svm.SVC(verbose=False, kernel='linear', probability=False, random_state=0, cache_size=2000, class_weight='auto')
-    #     clf.fit(features[train_index], labels[train_index])
+        # initialize svm classifier
+        clf = svm.SVC(verbose=False, kernel='linear', probability=False, random_state=0, cache_size=2000, class_weight='balanced')
+        # fit features, set labels
+        clf.fit(features[train_index], labels[train_index])
 
-    #     print clf.n_support_
+        # print clf.n_support_
+        
+        # get predicted values for training
+        # print "training:"
+        predicted = clf.predict(features[train_index])
+        # print classification_report(labels[train_index], predicted)
 
-    #     """
-    #     negatives = []
-    #     for i in clf.support_[:clf.n_support_[0]]:
-    #         negatives.append(all_texts[i])
+        # get predicted values for testing
+        # print "testing:"
+        predicted = clf.predict(features[test_index])
+        # print classification_report(labels[test_index], predicted)
 
-    #     positives = []
-    #     for i in clf.support_[clf.n_support_[0]:]:
-    #         positives.append(all_texts[i])
+        # calculate precision, recall, f1score and support
+        precision, recall, f1score, support = precision_recall_fscore_support(labels[test_index], predicted)
 
-    #     stats(negatives, positives)
-    #     """
+        # collect precisions
+        precisions.append(precision)
+        # collect recalls
+        recalls.append(recall)
+        # collect f1scores
+        f1scores.append(f1score)
+        # collect supports
+        supports.append(support)
 
-    #     print "training:"
-    #     predicted = clf.predict(features[train_index])
-    #     print classification_report(labels[train_index], predicted)
+    # get mse
+    precisions = np.mean(np.array(precisions), axis=0)
+    # get mse
+    recalls    = np.mean(np.array(recalls), axis=0)
+    # get mse
+    f1scores   = np.mean(np.array(f1scores), axis=0)
+    # get mse
+    supports   = np.mean(np.array(supports), axis=0)
 
-    #     print "testing:"
-    #     predicted = clf.predict(features[test_index])
-    #     print classification_report(labels[test_index], predicted)
-
-    #     precision, recall, f1score, support = precision_recall_fscore_support(labels[test_index], predicted)
-
-    #     precisions.append(precision)
-    #     recalls.append(recall)
-    #     f1scores.append(f1score)
-    #     supports.append(support)
-
-    # precisions = np.mean(np.array(precisions), axis=0)
-    # recalls = np.mean(np.array(recalls), axis=0)
-    # f1scores = np.mean(np.array(f1scores), axis=0)
-    # supports = np.mean(np.array(supports), axis=0)
-
+    # output labels
     # for label in range(2):
-    #     print '%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label])
+        # print '%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label])
+    
+    negatives = []
+    positives = []
+    for i in range(len(processor.texts)):
+        # utils.pretty(processor.texts[i])
+        if labels[i] == 1.0:
+            positives.append(processor.texts[i]['text'])
+        else:
+            negatives.append(processor.texts[i]['text'])
 
-    # return
+    stats(negatives, positives)
+    
+    return
 
+# show statistics
 def stats(negatives, positives):
-    negative_features = set()
+    # negative features
+    negative_features  = set()
+    # positive features
     positives_features = set()
-    negative_counts = collections.defaultdict(lambda: 0)
+    # negative total
+    negative_counts  = collections.defaultdict(lambda: 0)
+    # positive total
     positives_counts = collections.defaultdict(lambda: 0)
 
+    # iterate on negatives
     for text in negatives:
         negative_features |= set(text['computed'].items())
 
+    # iterate on positives
     for text in positives:
         positives_features |= set(text['computed'].items())
 
     common = negative_features & positives_features
 
+    # iterate on negatives
     for text in negatives:
         for key, value in text['computed'].iteritems():
             if (key, value) not in common:
                 negative_counts[(key, value)] += 1
 
+    # iterate on positives
     for text in positives:
         for key, value in text['computed'].iteritems():
             if (key, value) not in common:
                 positives_counts[(key, value)] += 1
 
+    # print negatives
     print 'negatives: '
-    print list(reversed(sorted(filter(lambda x: x[1] > 1, negative_counts.items()), key=lambda pair: pair[1])))[:10]
+    utils.pretty(list(reversed(sorted(filter(lambda x: x[1] > 1, negative_counts.items()), key=lambda pair: pair[1])))[:10])
+    # print positives
     print 'positives: '
-    print list(reversed(sorted(filter(lambda x: x[1] > 1, positives_counts.items()), key=lambda pair: pair[1])))[:10]
+    utils.pretty(list(reversed(sorted(filter(lambda x: x[1] > 1, positives_counts.items()), key=lambda pair: pair[1])))[:10])
 
 
 # argument parser

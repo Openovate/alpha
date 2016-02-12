@@ -1,0 +1,331 @@
+[
+  {
+    "confidence": 1.0,
+    "score": 47.13400827807628,
+    "pages": {
+      "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
+        "content": "Galleon - EarthMod: Vacation Or Not, House Plant Self Watering With Best Hand Blown Glass Bird Waterer System Is Easy As Aqua Globes. Automatic Globe Irrigation For Patio, Lawn, Garden Pot Or Planter.",
+        "text": [
+          "Galleon - EarthMod: Vacation Or Not, House Plant Self Watering With Best Hand Blown Glass Bird Waterer System Is Easy As Aqua Globes. Automatic Globe Irrigation For Patio, Lawn, Garden Pot Or Planter."
+        ],
+        "score": 54.75862726423568
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Galleon - Newly Designed Set Of 2 Hand Blown Clear Glass Self Watering Aqua Globes For Indoor Or Outdoor Plants. 1 Each Angel Fish And Bird Shaped Watering Spikes",
+        "text": [
+          "Galleon - Newly Designed Set Of 2 Hand Blown Clear Glass Self Watering Aqua Globes For Indoor Or Outdoor Plants. 1 Each Angel Fish And Bird Shaped Watering Spikes"
+        ],
+        "score": 39.50938929191688
+      }
+    },
+    "selectors": {
+      "": []
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 47.13400827807628,
+    "pages": {
+      "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
+        "content": "EarthMod: Vacation Or Not, House Plant Self Watering With Best Hand Blown Glass Bird Waterer System Is Easy As Aqua Globes. Automatic Globe Irrigation For Patio, Lawn, Garden Pot Or Planter.",
+        "text": [
+          "EarthMod: Vacation Or Not, House Plant Self Watering With Best Hand Blown Glass Bird Waterer System Is Easy As Aqua Globes. Automatic Globe Irrigation For Patio, Lawn, Garden Pot Or Planter."
+        ],
+        "score": 54.75862726423568
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Newly Designed Set of 2 Hand Blown Clear Glass Self Watering Aqua Globes for Indoor or Outdoor Plants. 1 Each Angel Fish and Bird Shaped Watering Spikes",
+        "text": [
+          "Newly Designed Set of 2 Hand Blown Clear Glass Self Watering Aqua Globes for Indoor or Outdoor Plants. 1 Each Angel Fish and Bird Shaped Watering Spikes"
+        ],
+        "score": 39.50938929191688
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div.body-content-row-middle > div.product-detail-container > div.row-fluid > div.detail-container.span9.product-name-price > div.row-fluid > div.span7.right-detail-container.product-title > h1": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body-content-row-middle"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-detail-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "detail-container",
+            "span9",
+            "product-name-price"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "span7",
+            "right-detail-container",
+            "product-title"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "h1"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 0.5,
+    "score": 8.317766166719343,
+    "pages": {
+      "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
+        "content": "Brand EarthMod Color Clear Glass PackageQuantity 2 UPC 820103114219 Warranty 100% Warranty Against Manufacturer Defects",
+        "text": [
+          "Brand",
+          "EarthMod",
+          "Color",
+          "Clear Glass",
+          "PackageQuantity",
+          "2",
+          "UPC",
+          "820103114219",
+          "Warranty",
+          "100% Warranty Against Manufacturer Defects"
+        ],
+        "score": 8.317766166719343
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Brand Goodman and Wife Color Clear Glass l PackageQuantity 2 UPC 700613352137",
+        "text": [
+          "Brand",
+          "Goodman and Wife",
+          "Color",
+          "Clear Glass l",
+          "PackageQuantity",
+          "2",
+          "UPC",
+          "700613352137"
+        ],
+        "score": 0.0
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div.body-content-row-middle > div.product-detail-container > div.row-fluid > div.detail-container.span9.product-name-price > div.row-fluid > div.span7.right-detail-container.product-title > div.more-info.row-fluid": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body-content-row-middle"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-detail-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "detail-container",
+            "span9",
+            "product-name-price"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "span7",
+            "right-detail-container",
+            "product-title"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "more-info",
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 167.39504410522676,
+    "pages": {
+      "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
+        "content": "Easy Plant Watering: Water Plants In Your House With Hand Blown Glass Bird Waterer System From EarthMod \"Yes, Monet, Renoir and Van Gogh would love the bird!\" - This beautiful glass art is as functional as watering globes but much more elegant and feng shui. - Definitely not fragile like plate glass. Made of borosilicate glass, exactly the same as Pyrexï¿½. - So very unique. Your own house plant watering system and Art all in one. Keep plants' root systems healthy. Never guess again when it is time to water. Simply view the bird; if it is empty, refill with water. Order a box of 2 for yourself and a box for a friend as a gift. They will love you for it. - Approximately 10\" long by 4\" wide; Length and width can vary by 1/4\" to 1/2\" due to hand-blown nature of the product. 2 Birds per box. - Once you have thoroughly watered your plants the traditional way, fill the bird with water, insert deep into the soil and let it decide when your plant needs more water. - Made for smal",
+        "text": [
+          "Easy Plant Watering: Water Plants In Your House With Hand Blown Glass Bird Waterer System From EarthMod \"Yes, Monet, Renoir and Van Gogh would love the bird!\" - This beautiful glass art is as functional as watering globes but much more elegant and feng shui. - Definitely not fragile like plate glass. Made of borosilicate glass, exactly the same as Pyrexï¿½. - So very unique. Your own house plant watering system and Art all in one. Keep plants' root systems healthy. Never guess again when it is time to water. Simply view the bird; if it is empty, refill with water. Order a box of 2 for yourself and a box for a friend as a gift. They will love you for it. - Approximately 10\" long by 4\" wide; Length and width can vary by 1/4\" to 1/2\" due to hand-blown nature of the product. 2 Birds per box. - Once you have thoroughly watered your plants the traditional way, fill the bird with water, insert deep into the soil and let it decide when your plant needs more water. - Made for smal"
+        ],
+        "score": 271.02054759893855
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Beautiful Hand Blown Glass bird and angel fish Shaped Self Watering Aqua Globes for indoor or outdoor use. Simply fill with water and insert into soil to water those thirsty plants or flowers. 2-Pack. 1 of each shape Includes 1- angel Fish,1- bird that each hold approximately 4 ozs of liquid Overall size measures approx.4.25\" long, 10.5 inches tall including tube.",
+        "text": [
+          "Beautiful Hand Blown Glass bird and angel fish Shaped Self Watering Aqua Globes for indoor or outdoor use. Simply fill with water and insert into soil to water those thirsty plants or flowers. 2-Pack. 1 of each shape Includes 1- angel Fish,1- bird that each hold approximately 4 ozs of liquid Overall size measures approx.4.25\" long, 10.5 inches tall including tube."
+        ],
+        "score": 63.76954061151496
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div.body-content-row-middle > div.product-detail-container > div.row-fluid > div.detail-container.span9.product-name-price > div.features > p": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body-content-row-middle"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-detail-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "detail-container",
+            "span9",
+            "product-name-price"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "features"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 48.86687622947615,
+    "pages": {
+      "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
+        "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039745307&cv=8&fst=1455039745307&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter&tiba=Galleon%20-%20EarthMod%3A%20Vacation%20Or%20Not%2C%20House%20Plant%20Self%20Watering%20With%20Best%20Hand%20Blown%20Glass%20Bird\" />",
+        "text": [
+          "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039745307&cv=8&fst=1455039745307&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter&tiba=Galleon%20-%20EarthMod%3A%20Vacation%20Or%20Not%2C%20House%20Plant%20Self%20Watering%20With%20Best%20Hand%20Blown%20Glass%20Bird\" />"
+        ],
+        "score": 56.83806880591552
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039716886&cv=8&fst=1455039716886&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes&tiba=Galleon%20-%20Newly%20Designed%20Set%20Of%202%20Hand%20Blown%20Clear%20Glass%20Self%20Watering%20Aqua%20Globes%20For%20Indoor%20\" />",
+        "text": [
+          "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039716886&cv=8&fst=1455039716886&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes&tiba=Galleon%20-%20Newly%20Designed%20Set%20Of%202%20Hand%20Blown%20Clear%20Glass%20Self%20Watering%20Aqua%20Globes%20For%20Indoor%20\" />"
+        ],
+        "score": 40.89568365303677
+      }
+    },
+    "selectors": {
+      "iframe": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "iframe"
+        }
+      ]
+    }
+  }
+]
