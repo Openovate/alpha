@@ -43,7 +43,7 @@ def main(args):
         # get the site id
         site_id = ids[count-1]
 
-        print '[clusterer] clustering with %d ' % count
+        print '[clusterer] clustering with %d to %s' % (count, site_id)
 
         # load data
         data = [utils.load_raw_data(args.site, ids[i]) for i in range(count)]
@@ -68,54 +68,16 @@ def main(args):
         with open(os.path.join(path['cluster'], '%s.json' % site_id), 'w') as f:
             f.write(json.dumps(clusters, indent=2, ensure_ascii=False).encode('utf8'))
 
-    # report data
-    with open(os.path.join(path['cluster'], 'report.json'), 'w+') as f:
-        f.write(json.dumps(clustered_report(clustered), indent=2, ensure_ascii=False).encode('utf8'))
-
-    # save latest data
-    with open(os.path.join(path['cluster'], 'clustered.json'), 'w+') as f:
-        f.write(json.dumps(clustered, indent=2, ensure_ascii=False).encode('utf8'))
-
-# print clustering report
-def clustered_report(clustered):
-    # report data
-    report = []
-
-    # iterate on each clustered data
-    for clusters in clustered:
         # selecting selectors
         selectors = []
-        # selecting texts
-        texts     = []
-
-        # iterate on each clusters
         for cluster in clusters:
-            # low confidence and score?
             if cluster['confidence'] < CONFIDENCE and cluster['score'] < SCORE:
                 continue
-
-            # get texts
-            for text in cluster['pages']:
-                texts.append({
-                    'confidence'        : cluster['confidence'],
-                    'coherent_score'    : cluster['score'],
-                    'url'               : text,
-                    'content'           : cluster['pages'][text]['content'],
-                    'texts'             : cluster['pages'][text]['text'],
-                    'score'             : cluster['pages'][text]['score']
-                })
-
-            # get selectors
-            for selector in cluster['selectors'].values():
-                # if valid selector
+            for key, selector in cluster['selectors'].iteritems():
                 if selector and selector[-1]['name'] != 'a':
-                    # append selectors
-                    selectors.append(selector)
+                    selectors.append({ 'path': key, 'tags' : selector })
 
-            # append report
-            report.append({ 'texts' : texts, 'selectors' : selectors })
-
-    return report
+        utils.pretty(selectors)
 
 # argument parser
 def parse_args():

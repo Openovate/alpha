@@ -228,11 +228,10 @@ def main(args):
     negatives = []
     positives = []
     for i in range(len(processor.texts)):
-        # utils.pretty(processor.texts[i])
-        if labels[i] == 1.0:
-            positives.append(processor.texts[i]['text'])
+        if labels[i]:
+            positives.append(processor.texts[i])
         else:
-            negatives.append(processor.texts[i]['text'])
+            negatives.append(processor.texts[i])
 
     stats(negatives, positives)
     
