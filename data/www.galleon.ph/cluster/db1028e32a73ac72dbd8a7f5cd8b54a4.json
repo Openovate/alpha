@@ -1,28 +1,42 @@
 [
   {
     "confidence": 1.0,
-    "score": 73.52537639411592,
+    "score": 109.89398879760422,
     "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Galleon - Fossil Men's Quinn Money Clip Bifold, Brown, One Size",
+        "text": [
+          "Galleon - Fossil Men's Quinn Money Clip Bifold, Brown, One Size"
+        ],
+        "score": 70.81526814710041
+      },
       "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
         "content": "Galleon - EarthMod: Vacation Or Not, House Plant Self Watering With Best Hand Blown Glass Bird Waterer System Is Easy As Aqua Globes. Automatic Globe Irrigation For Patio, Lawn, Garden Pot Or Planter.",
         "text": [
           "Galleon - EarthMod: Vacation Or Not, House Plant Self Watering With Best Hand Blown Glass Bird Waterer System Is Easy As Aqua Globes. Automatic Globe Irrigation For Patio, Lawn, Garden Pot Or Planter."
         ],
-        "score": 128.9587420480298
+        "score": 273.0115679500392
       },
       "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
         "content": "Galleon - Newly Designed Set Of 2 Hand Blown Clear Glass Self Watering Aqua Globes For Indoor Or Outdoor Plants. 1 Each Angel Fish And Bird Shaped Watering Spikes",
         "text": [
           "Galleon - Newly Designed Set Of 2 Hand Blown Clear Glass Self Watering Aqua Globes For Indoor Or Outdoor Plants. 1 Each Angel Fish And Bird Shaped Watering Spikes"
         ],
-        "score": 78.43403967030068
+        "score": 141.26559139351752
+      },
+      "http://www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium": {
+        "content": "Galleon - Nautica Men's Crosshatch Print Shirt, Union Blue, Medium",
+        "text": [
+          "Galleon - Nautica Men's Crosshatch Print Shirt, Union Blue, Medium"
+        ],
+        "score": 45.06426154815481
       },
       "http://www.galleon.ph/product/detail/7525631/under-armour-hustle-ii-backpack-royal-one-size": {
         "content": "Galleon - Under Armour Hustle II Backpack, Royal, One Size",
         "text": [
           "Galleon - Under Armour Hustle II Backpack, Royal, One Size"
         ],
-        "score": 13.183347464017316
+        "score": 19.313254949209202
       }
     },
     "selectors": {
@@ -31,28 +45,42 @@
   },
   {
     "confidence": 1.0,
-    "score": 73.52537639411592,
+    "score": 109.89398879760422,
     "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Fossil Men's Quinn Money Clip Bifold, Brown, One Size",
+        "text": [
+          "Fossil Men's Quinn Money Clip Bifold, Brown, One Size"
+        ],
+        "score": 70.81526814710041
+      },
       "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
         "content": "EarthMod: Vacation Or Not, House Plant Self Watering With Best Hand Blown Glass Bird Waterer System Is Easy As Aqua Globes. Automatic Globe Irrigation For Patio, Lawn, Garden Pot Or Planter.",
         "text": [
           "EarthMod: Vacation Or Not, House Plant Self Watering With Best Hand Blown Glass Bird Waterer System Is Easy As Aqua Globes. Automatic Globe Irrigation For Patio, Lawn, Garden Pot Or Planter."
         ],
-        "score": 128.9587420480298
+        "score": 273.0115679500392
       },
       "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
         "content": "Newly Designed Set of 2 Hand Blown Clear Glass Self Watering Aqua Globes for Indoor or Outdoor Plants. 1 Each Angel Fish and Bird Shaped Watering Spikes",
         "text": [
           "Newly Designed Set of 2 Hand Blown Clear Glass Self Watering Aqua Globes for Indoor or Outdoor Plants. 1 Each Angel Fish and Bird Shaped Watering Spikes"
         ],
-        "score": 78.43403967030068
+        "score": 141.26559139351752
+      },
+      "http://www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium": {
+        "content": "Nautica Men's Crosshatch Print Shirt, Union Blue, Medium",
+        "text": [
+          "Nautica Men's Crosshatch Print Shirt, Union Blue, Medium"
+        ],
+        "score": 45.06426154815481
       },
       "http://www.galleon.ph/product/detail/7525631/under-armour-hustle-ii-backpack-royal-one-size": {
         "content": "Under Armour Hustle II Backpack, Royal, One Size",
         "text": [
           "Under Armour Hustle II Backpack, Royal, One Size"
         ],
-        "score": 13.183347464017316
+        "score": 19.313254949209202
       }
     },
     "selectors": {
@@ -126,9 +154,20 @@
     }
   },
   {
-    "confidence": 0.3333333333333333,
-    "score": 4.865581297297973,
+    "confidence": 0.2,
+    "score": 10.995488782489861,
     "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Mens › Bags & Wallets › Wallets",
+        "text": [
+          "Mens",
+          "›",
+          "Bags & Wallets",
+          "›",
+          "Wallets"
+        ],
+        "score": 0.0
+      },
       "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
         "content": "Home, Garden & Tools › Patio, Lawn & Garden › Gardening",
         "text": [
@@ -138,7 +177,7 @@
           "›",
           "Gardening"
         ],
-        "score": 4.865581297297973
+        "score": 10.995488782489861
       },
       "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
         "content": "Home, Garden & Tools › Patio, Lawn & Garden › Gardening",
@@ -148,6 +187,15 @@
           "Patio, Lawn & Garden",
           "›",
           "Gardening"
+        ],
+        "score": 0.0
+      },
+      "http://www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium": {
+        "content": "Mens › Clothing",
+        "text": [
+          "Mens",
+          "›",
+          "Clothing"
         ],
         "score": 0.0
       },
@@ -240,8 +288,26 @@
   },
   {
     "confidence": 1.0,
-    "score": 7.132293876152878,
+    "score": 12.320985555024844,
     "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Brand Fossil Color Brown Department mens PackageQuantity 1 Size One Size UPC 762346311836",
+        "text": [
+          "Brand",
+          "Fossil",
+          "Color",
+          "Brown",
+          "Department",
+          "mens",
+          "PackageQuantity",
+          "1",
+          "Size",
+          "One Size",
+          "UPC",
+          "762346311836"
+        ],
+        "score": 9.656627474604601
+      },
       "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
         "content": "Brand EarthMod Color Clear Glass PackageQuantity 2 UPC 820103114219 Warranty 100% Warranty Against Manufacturer Defects",
         "text": [
@@ -256,7 +322,7 @@
           "Warranty",
           "100% Warranty Against Manufacturer Defects"
         ],
-        "score": 13.183347464017316
+        "score": 19.313254949209202
       },
       "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
         "content": "Brand Goodman and Wife Color Clear Glass l PackageQuantity 2 UPC 700613352137",
@@ -270,7 +336,25 @@
           "UPC",
           "700613352137"
         ],
-        "score": 1.6218604324326575
+        "score": 3.6651629274966204
+      },
+      "http://www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium": {
+        "content": "Brand Nautica Color Union Blue Department mens PackageQuantity 1 Size Medium UPC 823283181194",
+        "text": [
+          "Brand",
+          "Nautica",
+          "Color",
+          "Union Blue",
+          "Department",
+          "mens",
+          "PackageQuantity",
+          "1",
+          "Size",
+          "Medium",
+          "UPC",
+          "823283181194"
+        ],
+        "score": 19.313254949209202
       },
       "http://www.galleon.ph/product/detail/7525631/under-armour-hustle-ii-backpack-royal-one-size": {
         "content": "Brand Under Armour Color Royal (400) Department Unisex PackageQuantity 1 Size One Size UPC 888376408091",
@@ -288,7 +372,7 @@
           "UPC",
           "888376408091"
         ],
-        "score": 6.591673732008658
+        "score": 9.656627474604601
       }
     },
     "selectors": {
@@ -365,9 +449,18 @@
     }
   },
   {
-    "confidence": 1.0,
-    "score": 507.94407830095207,
+    "confidence": 0.8,
+    "score": 2027.8244554632327,
     "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Measurements: 4 inch l x 0.5 inch W x 2.75 inch H Interior details: 3 credit card slots, 2 slip pockets, 1 magnetic money clip 100 percent leather",
+        "text": [
+          "Measurements: 4 inch l x 0.5 inch W x 2.75 inch H",
+          "Interior details: 3 credit card slots, 2 slip pockets, 1 magnetic money clip",
+          "100 percent leather"
+        ],
+        "score": 0.0
+      },
       "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
         "content": "Patio, Lawn & Garden accessories would not be complete without the easy to use glass birds. Includes Premium Packaging, well protected for shipping and ready for gift giving on any occasion. Forget about watering cans; Create automatic drip irrigation system with our best plant waterer. Made of borosilicate glass, just like Pyrexï¿½. For use in containers up to 5-6 Lawn & Garden watering equipment can be too large for patio or house plants -the birds are perfect.",
         "text": [
@@ -377,7 +470,7 @@
           "Made of borosilicate glass, just like Pyrexï¿½.  For use in containers up to 5-6",
           "Lawn & Garden watering equipment can be too large for patio or house plants -the birds are perfect."
         ],
-        "score": 939.342829021449
+        "score": 6047.365008244684
       },
       "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
         "content": "Set of 2 clear glass self watering aqua globes for plants 1 bird and 1 angel fish. Also try our mushroom, snail, swan, pig and ladybug designs Provides water to potted plants for several days For use indoor and outdoor potted plants. Easy to use, just fill with water and insert into soil Each globe holds approximately 4 ounces of liquid",
@@ -388,7 +481,14 @@
           "Easy to use, just fill with water and insert into soil",
           "Each globe holds approximately 4 ounces of liquid"
         ],
-        "score": 135.5043924591267
+        "score": 1829.0875088948153
+      },
+      "http://www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium": {
+        "content": "Printed poplin shirt featuring spread collar and embroidered chest pocket",
+        "text": [
+          "Printed poplin shirt featuring spread collar and embroidered chest pocket"
+        ],
+        "score": 40.15898676971638
       },
       "http://www.galleon.ph/product/detail/7525631/under-armour-hustle-ii-backpack-royal-one-size": {
         "content": "2 side water bottle pockets Top grab handle Large front laundry pocket with gusset Dimensions: 18 Cubic Volume: 1875 Pockets: 3 interior slip, 5 exterior",
@@ -400,7 +500,7 @@
           "Cubic Volume: 1875",
           "Pockets: 3 interior slip, 5 exterior"
         ],
-        "score": 448.98501342228064
+        "score": 194.68631794371478
       }
     },
     "selectors": {
@@ -482,28 +582,42 @@
   },
   {
     "confidence": 1.0,
-    "score": 255.53854228317633,
+    "score": 299.5831417701228,
     "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Paying the bills just got a little more stylish with our new handsome Quinn money clip bifold. Precisely crafted, this classic essential features plenty of pockets and rich leather.",
+        "text": [
+          "Paying the bills just got a little more stylish with our new handsome Quinn money clip bifold. Precisely crafted, this classic essential features plenty of pockets and rich leather."
+        ],
+        "score": 171.82505142476813
+      },
       "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
         "content": "Easy Plant Watering: Water Plants In Your House With Hand Blown Glass Bird Waterer System From EarthMod \"Yes, Monet, Renoir and Van Gogh would love the bird!\" - This beautiful glass art is as functional as watering globes but much more elegant and feng shui. - Definitely not fragile like plate glass. Made of borosilicate glass, exactly the same as Pyrexï¿½. - So very unique. Your own house plant watering system and Art all in one. Keep plants' root systems healthy. Never guess again when it is time to water. Simply view the bird; if it is empty, refill with water. Order a box of 2 for yourself and a box for a friend as a gift. They will love you for it. - Approximately 10\" long by 4\" wide; Length and width can vary by 1/4\" to 1/2\" due to hand-blown nature of the product. 2 Birds per box. - Once you have thoroughly watered your plants the traditional way, fill the bird with water, insert deep into the soil and let it decide when your plant needs more water. - Made for smal",
         "text": [
           "Easy Plant Watering: Water Plants In Your House With Hand Blown Glass Bird Waterer System From EarthMod \"Yes, Monet, Renoir and Van Gogh would love the bird!\" - This beautiful glass art is as functional as watering globes but much more elegant and feng shui. - Definitely not fragile like plate glass. Made of borosilicate glass, exactly the same as Pyrexï¿½. - So very unique. Your own house plant watering system and Art all in one. Keep plants' root systems healthy. Never guess again when it is time to water. Simply view the bird; if it is empty, refill with water. Order a box of 2 for yourself and a box for a friend as a gift. They will love you for it. - Approximately 10\" long by 4\" wide; Length and width can vary by 1/4\" to 1/2\" due to hand-blown nature of the product. 2 Birds per box. - Once you have thoroughly watered your plants the traditional way, fill the bird with water, insert deep into the soil and let it decide when your plant needs more water. - Made for smal"
         ],
-        "score": 490.7826361935634
+        "score": 822.3084660176917
       },
       "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
         "content": "Beautiful Hand Blown Glass bird and angel fish Shaped Self Watering Aqua Globes for indoor or outdoor use. Simply fill with water and insert into soil to water those thirsty plants or flowers. 2-Pack. 1 of each shape Includes 1- angel Fish,1- bird that each hold approximately 4 ozs of liquid Overall size measures approx.4.25\" long, 10.5 inches tall including tube.",
         "text": [
           "Beautiful Hand Blown Glass bird and angel fish Shaped Self Watering Aqua Globes for indoor or outdoor use. Simply fill with water and insert into soil to water those thirsty plants or flowers. 2-Pack. 1 of each shape Includes 1- angel Fish,1- bird that each hold approximately 4 ozs of liquid Overall size measures approx.4.25\" long, 10.5 inches tall including tube."
         ],
-        "score": 129.88745529990246
+        "score": 234.8629341456709
+      },
+      "http://www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium": {
+        "content": "Our crosshatch geo print shirt goes great with jeans or casual pants.",
+        "text": [
+          "Our crosshatch geo print shirt goes great with jeans or casual pants."
+        ],
+        "score": 57.93976484762761
       },
       "http://www.galleon.ph/product/detail/7525631/under-armour-hustle-ii-backpack-royal-one-size": {
         "content": "UA Storm technology delivers an element-battling, highly water-resistant finish. Tough, abrasion-resistant bottom panel. Soft lined laptop sleeve-holds up to 15\" laptop. Water-repellant front valuables pocket to keep your stuff safe. Adjustable Heat Gear shoulder straps for extra comfort.",
         "text": [
           "UA Storm technology delivers an element-battling, highly water-resistant finish. Tough, abrasion-resistant bottom panel. Soft lined laptop sleeve-holds up to 15\" laptop. Water-repellant front valuables pocket to keep your stuff safe. Adjustable Heat Gear shoulder straps for extra comfort."
         ],
-        "score": 145.94553535606317
+        "score": 210.97949241485543
       }
     },
     "selectors": {
@@ -568,9 +682,21 @@
     }
   },
   {
-    "confidence": 0.3333333333333333,
-    "score": 62.761345962254275,
+    "confidence": 0.4,
+    "score": 590.3235174401287,
     "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Magic Style Wallet Dockers Men's Genuine Leather Pocketmate ID Billfo... Pacsafe Luggage Rfid-tec 100 Bi-fold Wallet (One S... Card Holder Wallet For Men - Black Leather, Credit... Dopp RFID Black Ops Front Pocket Get-Away Wallet (... Dopp Regatta 88 Series Front Getaway Pocket - Blac...",
+        "text": [
+          "Magic Style Wallet",
+          "Dockers Men's Genuine Leather Pocketmate ID Billfo...",
+          "Pacsafe Luggage Rfid-tec 100 Bi-fold Wallet (One S...",
+          "Card Holder Wallet For Men - Black Leather, Credit...",
+          "Dopp RFID Black Ops Front Pocket Get-Away Wallet (...",
+          "Dopp Regatta 88 Series Front Getaway Pocket - Blac..."
+        ],
+        "score": 1045.9519343932852
+      },
       "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
         "content": "Super Starts Complete Plant Tissue Culture Kit Zenport ZL615 Telescopic Long Reach Pruner, Extend... Antique Revival Classic Wooden Water Bucket Hydrofarm FLT24 2-Feet/4-Tube T5 Commercial Syste... Black Flag 190255 Fogging Insecticide, 32-Ounce Superthrive Gal",
         "text": [
@@ -595,6 +721,18 @@
         ],
         "score": 0.0
       },
+      "http://www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium": {
+        "content": "Braga Men's Button-up Sleveless Cardigan Sweater. ... Marvel Comics Deadpool Minimal Eyes Mens Jersey Ta... Bacon And Eggs Nike Elite Socks (Large 8-12) The Pilot Uniform T-Shirt - Luso Aviation - Large IntelliSkin Men's Foundation 2.0 Athletic Shirt, S... Fancy Stripe Colorful Cotton Socks For Men (10 PAI...",
+        "text": [
+          "Braga Men's Button-up Sleveless Cardigan Sweater. ...",
+          "Marvel Comics Deadpool Minimal Eyes Mens Jersey Ta...",
+          "Bacon And Eggs Nike Elite Socks (Large 8-12)",
+          "The Pilot Uniform T-Shirt - Luso Aviation - Large",
+          "IntelliSkin Men's Foundation 2.0 Athletic Shirt, S...",
+          "Fancy Stripe Colorful Cotton Socks For Men (10 PAI..."
+        ],
+        "score": 0.0
+      },
       "http://www.galleon.ph/product/detail/7525631/under-armour-hustle-ii-backpack-royal-one-size": {
         "content": "3 Sizes Bundle Pack Black Stretch Fabric Luggage C... Andiamo Timbuk2 Command Messenger Bag 2015 Targus Tsb75704Us Gray Sport 26L. Backpack Fits Up... Large Sling Body Shoulder Strap Messenger Bag Back... HDE Vintage Canvas Military Tactical Ammo Style Sh...",
         "text": [
@@ -605,7 +743,7 @@
           "Large Sling Body Shoulder Strap Messenger Bag Back...",
           "HDE Vintage Canvas Military Tactical Ammo Style Sh..."
         ],
-        "score": 62.761345962254275
+        "score": 134.69510048697222
       }
     },
     "selectors": {
@@ -672,28 +810,42 @@
   },
   {
     "confidence": 1.0,
-    "score": 77.49698844030053,
+    "score": 117.77424901120798,
     "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455283620428&cv=8&fst=1455283620428&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size&tiba=Galleon%20-%20Fossil%20Men's%20Quinn%20Money%20Clip%20Bifold%2C%20Brown%2C%20One%20Size\" />",
+        "text": [
+          "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455283620428&cv=8&fst=1455283620428&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size&tiba=Galleon%20-%20Fossil%20Men's%20Quinn%20Money%20Clip%20Bifold%2C%20Brown%2C%20One%20Size\" />"
+        ],
+        "score": 80.47189562170502
+      },
       "http://www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter": {
         "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039745307&cv=8&fst=1455039745307&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter&tiba=Galleon%20-%20EarthMod%3A%20Vacation%20Or%20Not%2C%20House%20Plant%20Self%20Watering%20With%20Best%20Hand%20Blown%20Glass%20Bird\" />",
         "text": [
           "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039745307&cv=8&fst=1455039745307&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/9428369/earthmod-vacation-or-not-house-plant-self-watering-with-best-hand-blown-glass-bird-waterer-system-is-easy-as-aqua-globes-automatic-globe-irrigation-for-patio-lawn-garden-pot-or-planter&tiba=Galleon%20-%20EarthMod%3A%20Vacation%20Or%20Not%2C%20House%20Plant%20Self%20Watering%20With%20Best%20Hand%20Blown%20Glass%20Bird\" />"
         ],
-        "score": 133.06550913025043
+        "score": 280.1832887748557
       },
       "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
         "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039716886&cv=8&fst=1455039716886&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes&tiba=Galleon%20-%20Newly%20Designed%20Set%20Of%202%20Hand%20Blown%20Clear%20Glass%20Self%20Watering%20Aqua%20Globes%20For%20Indoor%20\" />",
         "text": [
           "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039716886&cv=8&fst=1455039716886&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes&tiba=Galleon%20-%20Newly%20Designed%20Set%20Of%202%20Hand%20Blown%20Clear%20Glass%20Self%20Watering%20Aqua%20Globes%20For%20Indoor%20\" />"
         ],
-        "score": 81.8476595719614
+        "score": 147.74416503777417
+      },
+      "http://www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium": {
+        "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455283570907&cv=8&fst=1455283570907&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium&tiba=Galleon%20-%20Nautica%20Men's%20Crosshatch%20Print%20Shirt%2C%20Union%20Blue%2C%20Medium\" />",
+        "text": [
+          "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455283570907&cv=8&fst=1455283570907&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/9631235/nautica-mens-crosshatch-print-shirt-union-blue-medium&tiba=Galleon%20-%20Nautica%20Men's%20Crosshatch%20Print%20Shirt%2C%20Union%20Blue%2C%20Medium\" />"
+        ],
+        "score": 54.72088902275941
       },
       "http://www.galleon.ph/product/detail/7525631/under-armour-hustle-ii-backpack-royal-one-size": {
         "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455278149734&cv=8&fst=1455278149734&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7525631/under-armour-hustle-ii-backpack-royal-one-size&tiba=Galleon%20-%20Under%20Armour%20Hustle%20II%20Backpack%2C%20Royal%2C%20One%20Size\" />",
         "text": [
           "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455278149734&cv=8&fst=1455278149734&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7525631/under-armour-hustle-ii-backpack-royal-one-size&tiba=Galleon%20-%20Under%20Armour%20Hustle%20II%20Backpack%2C%20Royal%2C%20One%20Size\" />"
         ],
-        "score": 17.577796618689757
+        "score": 25.751006598945605
       }
     },
     "selectors": {
@@ -702,6 +854,72 @@
           "classes": [],
           "id": "",
           "name": "iframe"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 70.81526814710041,
+    "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Fossil Men's Quinn Money Clip Bifold, Brown, One Size",
+        "text": [
+          "Fossil Men's Quinn Money Clip Bifold, Brown, One Size"
+        ],
+        "score": 70.81526814710041
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div#product-variation-modal.fade.hide.modal > div.modal-body > div.variant-body > a > div.product-variant": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "fade",
+            "hide",
+            "modal"
+          ],
+          "id": "product-variation-modal",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "modal-body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "variant-body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "a"
+        },
+        {
+          "classes": [
+            "product-variant"
+          ],
+          "id": "",
+          "name": "div"
         }
       ]
     }
