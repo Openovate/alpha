@@ -200,7 +200,7 @@ class Processor(object):
             hints = page['titles'] + page['descriptions']
             # compute relevance score
             relevance_score = self.analyzer.get_similarity(text['tokens'], hints) if hints else 1.0
-
+            
             # get cluster
             cluster = clusters[int(label)]
             # append text selector to cluster
