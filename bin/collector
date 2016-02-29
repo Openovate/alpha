@@ -71,9 +71,6 @@ def get_title(raw, clustered):
         # get selectors
         selectors = text['selector']
 
-        if ''.join(text['text']) != 'Tommy Bahama Mojito 20 Inch Duffle, Navy, One Size':
-            continue
-
         # empty selectors?
         if len(selectors) <= 0:
             continue;

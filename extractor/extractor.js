@@ -133,6 +133,8 @@ page.onLoadFinished = function(status) {
                     element = element.parentElement;
                 }
 
+                path.sort()
+
                 return path;
             },
 
