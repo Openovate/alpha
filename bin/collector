@@ -1,0 +1,117 @@
+#!/usr/bin/env python
+
+import os
+import sys
+import argparse
+
+sys.path.append('..')
+
+from alpha.lib import utils
+
+def main(args):
+    # get the site path
+    path = utils.get_data_path(args.url)
+    # load up the raw data
+    raw  = utils.load_raw_data(args.url, args.site_id)
+
+    # latest clustered data
+    latest = ''
+
+    # get the latest clustered data
+    try:
+        # load up the clustered id
+        with open(os.path.join(path['root'], 'latest.clustered'), 'r') as f:
+            # get the id
+            latest = f.read()
+            # close the handler
+            f.close()
+    except:
+        print 'Cannot find latest clustered data, please run bin/clusterer -h for more info'
+
+        sys.exit(1)
+
+    # load the clustered data
+    clustered = utils.load_clustered_data(args.url, latest)
+
+    # get the title
+    get_title(raw, clustered)
+
+# get the title comparing from raw
+# and the clustered data
+def get_title(raw, clustered):
+    # the first thing on the clustered
+    # data will be the page title, that
+    # is the highest point of data and
+    # possibly the next thing will be
+    # the title specifically,
+    titles = []
+
+    # get the selectors
+    selectors = clustered[1]['selectors']
+
+    # collect the selectors
+    consolidated = []
+    # iterate on each selectors
+    for key, selector in selectors.iteritems():
+        # filter selectors
+        if selector and selector[-1]['name'] != 'a':
+            consolidated.append(selector)
+
+    # consolidate selectors
+    consolidated = utils.consolidate_selectors(consolidated);
+    
+    # join consolidated selectors
+    consolidated = ','.join(consolidated)
+
+    # get the text data
+    texts = raw['texts']
+
+    # iterate on each text data
+    for text in texts:
+        # get selectors
+        selectors = text['selector']
+
+        if ''.join(text['text']) != 'Tommy Bahama Mojito 20 Inch Duffle, Navy, One Size':
+            continue
+
+        # empty selectors?
+        if len(selectors) <= 0:
+            continue;
+
+        # make it iterable
+        selectors = {0 : selectors}
+        
+        # get the target selector
+        target = []
+        # keep track of texts
+        lists  = {}
+        # iterate on each selectors
+        for key, selector in selectors.iteritems():
+            # filter selectors
+            if selector and selector[-1]['name'] != 'a':
+                target.append(selector)
+
+        # consolidate selectors
+        target = utils.consolidate_selectors(target);
+        
+        # join consolidated selectors
+        target = ','.join(target)
+
+        # are they equal?
+        if target == consolidated:
+            print 'Title: ' + ''.join(text['text'])
+
+# argument parser
+def parse_args():
+    # initialize argument parser
+    parser = argparse.ArgumentParser(prog='collector', description='Data collector process')
+
+    # set url argument
+    parser.add_argument('-u', '--url', nargs='?', const=str, required=True, help='url of the data to be collected');
+    # set site id argument
+    parser.add_argument('-id', '--site_id', nargs='?', const=str, required=True, help='sha1 generated site id after extraction')
+   
+    return parser.parse_args()
+
+if __name__ == '__main__':
+    main(parse_args())

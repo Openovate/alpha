@@ -183,6 +183,8 @@ def consolidate_selectors(selectors):
         for part in selector:
             path = part['name']
 
+            part['classes'].sort()
+
             if part['id']:
                 path += '#' + part['id']
             if part['classes']:
