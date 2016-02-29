@@ -38,6 +38,9 @@ def main(args):
         print 'not enough data for clustering, please extract atleast 3 different pages in ' + args.site
         sys.exit()
 
+    # keep track of last clustered id
+    latest = ''
+
     # iterate on each urls
     for count in range(2, len(urls) + 1):
         # get the site id
@@ -64,6 +67,10 @@ def main(args):
         if len(clusters) > 0:
             clustered.append(clusters)
 
+        # empty data?
+        if len(clusters) <= 0:
+            continue
+
         # save clustered data
         with open(os.path.join(path['cluster'], '%s.json' % site_id), 'w') as f:
             f.write(json.dumps(clusters, indent=2, ensure_ascii=False).encode('utf8'))
@@ -77,7 +84,15 @@ def main(args):
                 if selector and selector[-1]['name'] != 'a':
                     selectors.append({ 'path': key, 'tags' : selector })
 
-        utils.pretty(selectors)
+        # keep track of last clustered id
+        latest = site_id
+
+    # write the latest clustered data, the last one will be the most accurate
+    with open(os.path.join(path['root'], 'latest.clustered'), 'w+') as f:
+        # write the site id
+        f.write(latest)
+        # close handler
+        f.close()
 
 # argument parser
 def parse_args():

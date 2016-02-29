@@ -47,8 +47,20 @@ def load_raw_data(site, id):
     return data
 
 # load clustered data
-def load_clustered_data(site):
-    return ''
+def load_clustered_data(site, id):
+    # get the clustered path
+    path = get_data_path(site)['cluster']
+
+    # append site id
+    path = os.path.join(path, id + '.json')
+
+    data = {}
+
+    # open file
+    with open(path, 'r') as f:
+        data = json.load(f)
+
+    return data
 
 # load trained data
 def load_trained_data(site):
