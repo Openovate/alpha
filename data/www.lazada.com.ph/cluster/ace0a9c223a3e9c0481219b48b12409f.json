@@ -1,28 +1,35 @@
 [
   {
     "confidence": 1.0,
-    "score": 13.209753486649227,
+    "score": 11.393931686946646,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Bluelans Faux Women's Red Leather Strap Watch",
         "text": [
           "Bluelans Faux Women's Red Leather Strap Watch"
         ],
-        "score": 8.109302162163289
+        "score": 7.78096698957644
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch",
+        "text": [
+          "2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch"
+        ],
+        "score": 7.192051811294521
       },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF",
         "text": [
           "Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF"
         ],
-        "score": 21.972245773362197
+        "score": 24.260151319598087
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Business About Men Stainless Steel Band Machinery Sport Quartz Watch",
         "text": [
           "Business About Men Stainless Steel Band Machinery Sport Quartz Watch"
         ],
-        "score": 9.547712524422193
+        "score": 6.342556627317535
       }
     },
     "selectors": {
@@ -97,28 +104,35 @@
   },
   {
     "confidence": 1.0,
-    "score": 13.209753486649227,
+    "score": 11.393931686946646,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Bluelans Faux Women's Red Leather Strap Watch",
         "text": [
           "Bluelans Faux Women's Red Leather Strap Watch"
         ],
-        "score": 8.109302162163289
+        "score": 7.78096698957644
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch",
+        "text": [
+          "2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch"
+        ],
+        "score": 7.192051811294521
       },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF",
         "text": [
           "Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF"
         ],
-        "score": 21.972245773362197
+        "score": 24.260151319598087
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Business About Men Stainless Steel Band Machinery Sport Quartz Watch",
         "text": [
           "Business About Men Stainless Steel Band Machinery Sport Quartz Watch"
         ],
-        "score": 9.547712524422193
+        "score": 6.342556627317535
       }
     },
     "selectors": {
@@ -187,8 +201,8 @@
     }
   },
   {
-    "confidence": 0.3333333333333333,
-    "score": 48.27795843250329,
+    "confidence": 0.25,
+    "score": 19.218120556728056,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Brand: Blue lans More from Blue lans",
@@ -199,6 +213,15 @@
         ],
         "score": 0.0
       },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "Brand: Not Specified More from Not Specified",
+        "text": [
+          "Brand:",
+          "Not Specified",
+          "More  from Not Specified"
+        ],
+        "score": 0.0
+      },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Brand: CASIO More from CASIO",
         "text": [
@@ -206,7 +229,7 @@
           "CASIO",
           "More  from CASIO"
         ],
-        "score": 48.27795843250329
+        "score": 19.218120556728056
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Brand: OEM More from OEM",
@@ -303,15 +326,156 @@
     }
   },
   {
-    "confidence": 0.3333333333333333,
-    "score": 2.027325540540822,
+    "confidence": 0.25,
+    "score": 3.310438992406067,
+    "pages": {
+      "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
+        "content": "Display: Analog Band Material: Leather. Case Diameter : Approx 3.5 cm Movement: Quartz Water Resistant: 3ATM(Daily).",
+        "text": [
+          "Display: Analog",
+          "Band Material: Leather.",
+          "Case Diameter : Approx 3.5 cm",
+          "Movement: Quartz",
+          "Water Resistant: 3ATM(Daily)."
+        ],
+        "score": 0.0
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "Display: Digital Movement: Digital Dial Shape: Rectangle Surface Material: Stainless Steel Strap Material: Stainless Steel Waterproof: N",
+        "text": [
+          "Display: Digital",
+          "Movement: Digital",
+          "Dial Shape: Rectangle",
+          "Surface Material: Stainless Steel",
+          "Strap Material: Stainless Steel",
+          "Waterproof: N"
+        ],
+        "score": 3.310438992406067
+      },
+      "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
+        "content": "Digital Watch Case Material: Resin 48mm circular steel case Quarts Movement 100-meter water resistance",
+        "text": [
+          "Digital Watch",
+          "Case Material: Resin",
+          "48mm circular steel case",
+          "Quarts Movement",
+          "100-meter water resistance"
+        ],
+        "score": 0.0
+      },
+      "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
+        "content": "100% brand new and high quality. Compact,Elegant,Stylish Gender : Men Style :Business Features : Bright Band material : Alloy",
+        "text": [
+          "100% brand new and high quality.",
+          "Compact,Elegant,Stylish",
+          "Gender : Men",
+          "Style :Business",
+          "Features : Bright",
+          "Band material : Alloy"
+        ],
+        "score": 0.0
+      }
+    },
+    "selectors": {
+      "article.l-product-details-page > div.l-pageWrapper > div#prd-detail-page > div > div#prodinfo.l-main.prd-detail-wrapper > div#prod_content_wrapper.leadtimeHolder > div.prod_l_content > div.prod_content > div.prod_details > ul.prd-attributesList.ui-listBulleted > li > span": [
+        {
+          "classes": [
+            "l-product-details-page"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "l-pageWrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "prd-detail-page",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "l-main",
+            "prd-detail-wrapper"
+          ],
+          "id": "prodinfo",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "leadtimeHolder"
+          ],
+          "id": "prod_content_wrapper",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "prod_l_content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "prod_content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "prod_details"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "prd-attributesList",
+            "ui-listBulleted"
+          ],
+          "id": "",
+          "name": "ul"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "span"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 0.25,
+    "score": 1.4384103622589042,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Bluelans",
         "text": [
           "Bluelans"
         ],
-        "score": 2.027325540540822
+        "score": 1.4384103622589042
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "Latop",
+        "text": [
+          "Latop"
+        ],
+        "score": 0.0
       },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "TKNM Time",
@@ -420,28 +584,35 @@
   },
   {
     "confidence": 1.0,
-    "score": 13.209753486649227,
+    "score": 11.393931686946646,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Product details of Bluelans Faux Women's Red Leather Strap Watch",
         "text": [
           "Product details of Bluelans Faux Women's Red Leather Strap Watch"
         ],
-        "score": 8.109302162163289
+        "score": 7.78096698957644
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "Product details of 2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch",
+        "text": [
+          "Product details of 2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch"
+        ],
+        "score": 7.192051811294521
       },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Product details of Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF",
         "text": [
           "Product details of Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF"
         ],
-        "score": 21.972245773362197
+        "score": 24.260151319598087
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Product details of Business About Men Stainless Steel Band Machinery Sport Quartz Watch",
         "text": [
           "Product details of Business About Men Stainless Steel Band Machinery Sport Quartz Watch"
         ],
-        "score": 9.547712524422193
+        "score": 6.342556627317535
       }
     },
     "selectors": {
@@ -513,14 +684,14 @@
   },
   {
     "confidence": 1.0,
-    "score": 9.547712524422193,
+    "score": 6.342556627317535,
     "pages": {
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Business About Men Stainless Steel Band Machinery Sport Quartz Watch",
         "text": [
           "Business About Men Stainless Steel Band Machinery Sport Quartz Watch"
         ],
-        "score": 9.547712524422193
+        "score": 6.342556627317535
       }
     },
     "selectors": {
@@ -589,8 +760,8 @@
     }
   },
   {
-    "confidence": 1.0,
-    "score": 10.585174789699051,
+    "confidence": 0.75,
+    "score": 9.141551372189225,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Item specifics Condition: New without tags Brand: Sinobi Age: Modern (2000-present) Gender: Women's Movement: Quartz : Battery Display: Analog Case Material: Stainless Steel. Band Material: High Grade White Red. Movement: Precise quartz movement. Water Resistant: 3ATM(Daily). Specification: Case Diameter : Approx 3.5 cm Case Thickness : Approx 0.9 cm Band length(open) : Approx20.5 cm Band width : Approx 1.6 cm Band Adjustable : yes",
@@ -613,7 +784,14 @@
           "Band width : Approx 1.6 cm",
           "Band Adjustable : yes"
         ],
-        "score": 2.027325540540822
+        "score": 3.4657359027997265
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "Feature: 100% brand new and high quality.Gender: Neutral",
+        "text": [
+          "Feature: 100% brand new and high quality.Gender: Neutral"
+        ],
+        "score": 0.0
       },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Brings sophistication and function together with the Casio Illuminator . Movement durability and integrity are ensured by outstanding case construction to protect against damage and keep settings accurate. Stepping out in the rain? Not a problem. Perfect even for the outdoors, this watch features water-resistance up to 100 meters. Durable stainless steel straps accompanied by a tenacious fold-over clasp work together to withstand the rigors of your day. A timepiece that never goes out of style, your Casio Illuminator Watch is designed to be the perfect complement to any outfit from day to night. Sport the Casio Men's Watch from the workplace to casual meetings and tell time at a glance. Fashion fads come and go, but the classic look of Casio delivers wardrobe versatility that you can count on for years to come. Casio timepieces provide accurate time information anywhere, all the time. They boast rich functionality that provides users with a variety of useful data, not just the time. Casio aims to provide watches that allow people to expand their horizons and enjoy life more. Fashion-forward Lazada Keep up with what’s hot and trendy, effortlessly. No need to sweat going to the mall for the best items on sale today--Lazada has it all and more for you. Whether going low-key in simple tees , or dressing to kill in formalwear , the Casio Watch is a powerful accessory that instantly fits the bill. Complete your look with other apparel and accessories available in the Fashion section for effortless, trendy style. Other Features: -1/100-second stopwatch -Measuring capacity: 23:59'59.99\" -Measuring modes: Elapsed time, split time, 1st-2nd place times -12/24-hour format -Accuracy: ±30 seconds per month -Alarms: 5 independent alarms (one-time or daily) -Approx. battery life: 10 years on CR2025 -Full auto-calendar (to year 2099) -Button operation tone on/off -Countdown timer -Measuring unit: 1/10 second -Input range: 1 second to 24 hours (1-second increments, 1-minute increments and 1-hour increments) -Hourly time signal -LED light -Auto light switch, selectable illumination duration, afterglow -Mulit Time (4 different cities) -Regular timekeeping -Analog: 3 hands (Hour, minute, stopwatch seconds), -3 dials (second, stopwatch hours and minutes) -World Time -31 time zones (48 cities + coordinated universal time), daylight saving on/off, Home city/World time city swapping -Size of case / total weight: AE-1000W 48.1 X 43.7 X 13.7 mm / 40 g",
@@ -656,7 +834,7 @@
           "-31 time zones (48 cities + coordinated universal time), daylight saving on/off, Home city/World time city swapping",
           "-Size of case / total weight: AE-1000W 48.1 X 43.7 X 13.7 mm / 40 g"
         ],
-        "score": 19.775021196025975
+        "score": 17.328679513998633
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "100% brand new and high quality. Quantity:1PC Compact,Elegant,Stylish Gender : Men Style : Business Features : Bright Band material : Alloy Dial Diameter : Approx 48 mm/1.88\" Dial Thickness : Approx 10 mm/0.39\" Watch Strap Length : Approx 240 mm/9.44\" Watch Strap Width : Approx 18 mm/0.70\" Living water Package Content: 1PC Business About Men Stainless Steel Band Machinery Sport Quartz Watch (without retail package)",
@@ -680,7 +858,7 @@
           "1PC Business About Men Stainless Steel Band Machinery Sport Quartz Watch",
           "(without retail package)"
         ],
-        "score": 9.953177632530357
+        "score": 6.630238699769317
       }
     },
     "selectors": {
@@ -745,28 +923,35 @@
   },
   {
     "confidence": 1.0,
-    "score": 13.209753486649227,
+    "score": 11.393931686946646,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Specifications of Bluelans Faux Women's Red Leather Strap Watch",
         "text": [
           "Specifications of Bluelans Faux Women's Red Leather Strap Watch"
         ],
-        "score": 8.109302162163289
+        "score": 7.78096698957644
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "Specifications of 2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch",
+        "text": [
+          "Specifications of 2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch"
+        ],
+        "score": 7.192051811294521
       },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Specifications of Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF",
         "text": [
           "Specifications of Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF"
         ],
-        "score": 21.972245773362197
+        "score": 24.260151319598087
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Specifications of Business About Men Stainless Steel Band Machinery Sport Quartz Watch",
         "text": [
           "Specifications of Business About Men Stainless Steel Band Machinery Sport Quartz Watch"
         ],
-        "score": 9.547712524422193
+        "score": 6.342556627317535
       }
     },
     "selectors": {
@@ -830,14 +1015,14 @@
   },
   {
     "confidence": 1.0,
-    "score": 9.547712524422193,
+    "score": 6.342556627317535,
     "pages": {
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "1 x Business About Men Stainless Steel Band Machinery Sport Quartz Watch(without retail package)",
         "text": [
           "1 x Business About Men Stainless Steel Band Machinery Sport Quartz Watch(without retail package)"
         ],
-        "score": 9.547712524422193
+        "score": 6.342556627317535
       }
     },
     "selectors": {
@@ -923,7 +1108,7 @@
   },
   {
     "confidence": 1.0,
-    "score": 4556.938971709673,
+    "score": 1924.500103524637,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Bluelans Women's Blue Faux Leather Strap Watch Bluelans Unisex Roman Numerals Brown Faux Leather Strap Watch Bluelans 18K Austrian Crystal Bangles (Gold White) Geneva Women Beige Geneva Women's Silver Stainless Steel Strap Watch Waist Trimmer Belt (Nude) Tickle Ypad Multimedia Learning Computer Toy Tool Pink with FREE Magic Mini Tablet Toy Bluelans Rhinestone Pendant Necklace (Gold White) Bluelans Plated Rhinestone Alloy Rings (Gold) Bluelans Silver Stainless Steel Strap Watch Bluelans Women's Two-Tone Stainless Steel Strap Watch Bluelans Men's Black Stainless Steel Watch Geneva Women's Rose-Gold Stainless Steel Strap Watch Bluelans Sinobi Women's White Faux Leather Quartz Wrist Watch Sanwood Women Stainless Steel Faux Leather Watch Red Bluelans Women's Gold Stainless Steel Strap Watch 3 PACK Geneva Silver Gold and Rose Gold Plated Classic Round Ladies Watch Bluelans Sinobi Women's Black Faux Leather Wrist Watch Sanwood Women's Stainless Steel Strap Wrist Watch Golden",
@@ -948,7 +1133,29 @@
           "Bluelans Sinobi Women's Black Faux Leather Wrist Watch",
           "Sanwood Women's Stainless Steel Strap Wrist Watch Golden"
         ],
-        "score": 8291.868173953519
+        "score": 4500.07157073257
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "2 Piece Set Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch Gift 3 PACK Geneva Silver Gold and Rose Gold Plated Classic Round Ladies Watch Geneva Women Beige 3 PACK Silver Gold and Rose Gold Plated Classic Round Ladies Watch Bluelans Men's Black Stainless Steel Watch Casio Chrono Men's Silver Dial Stainless Steel Strap Watch A158WA-1 Gorgeous Quartz Analog Couple Watch with Rhinestone Decor White Dial Bluelans Women's Blue Faux Leather Strap Watch GMG Speedometer Design Men's Black Rubber Strap Sports Watch GMW-0001a 2 PACK Geneva Silver and Gold Plated Classic Round Ladies Boyfriend Watch (Silver + Gold ) Bluelans Women's Gold Stainless Steel Strap Watch Bluelans Women's Two-Tone Stainless Steel Strap Watch Business About Men Stainless Steel Band Machinery Sport Quartz Watch OEM Men's Black Rubber Strap Watch Women Geneva Roman Numerals Faux Leather Analog Quartz Watch (Black+White) Sanwood Unisex Stainless Steel LCD Digital Sports Watch Golden",
+        "text": [
+          "2 Piece Set Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch Gift",
+          "3 PACK Geneva Silver Gold and Rose Gold Plated Classic Round Ladies Watch",
+          "Geneva Women Beige",
+          "3 PACK Silver Gold and Rose Gold Plated Classic Round Ladies Watch",
+          "Bluelans Men's Black Stainless Steel Watch",
+          "Casio Chrono Men's Silver Dial Stainless Steel Strap Watch A158WA-1",
+          "Gorgeous Quartz Analog Couple Watch with Rhinestone Decor White Dial",
+          "Bluelans Women's Blue Faux Leather Strap Watch",
+          "GMG Speedometer Design Men's Black Rubber Strap Sports Watch GMW-0001a",
+          "2 PACK Geneva Silver and Gold Plated Classic Round Ladies Boyfriend Watch (Silver + Gold )",
+          "Bluelans Women's Gold Stainless Steel Strap Watch",
+          "Bluelans Women's Two-Tone Stainless Steel Strap Watch",
+          "Business About Men Stainless Steel Band Machinery Sport Quartz Watch",
+          "OEM Men's Black Rubber Strap Watch",
+          "Women Geneva Roman Numerals Faux Leather Analog Quartz Watch (Black+White)",
+          "Sanwood Unisex Stainless Steel LCD Digital Sports Watch Golden"
+        ],
+        "score": 824.630353008351
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Fukuda SF-164XS 16 Stand Fan (Green) Buy 1 Take 1 3 PACK Geneva Silver Gold and Rose Gold Plated Classic Round Ladies Watch Stainless Steel Sport Quartz Hours Silver & Black Mens Watch Weide WH2309 Men's Military Sports Silver Band Digital LED Dual Time Display Alarm Quartz Wristwatch Bluelans Silver Stainless Steel Strap Watch Bluelans Men's Black Stainless Steel Watch Geneva Women Beige Men Waterproof Watches Three Six-pin Strip Watch Business Watches Black Bluelans Faux Women's Red Leather Strap Watch Luxury Fashion Faux Leather Mens Blue Ray Glass Quartz Analog Watches Brown Bluelans Men's Blue Leather Strap Black Case Watch OEM Men's Black Rubber Strap Watch 2 PACK Geneva Silver and Gold Plated Classic Round Ladies Boyfriend Watch (Silver + Gold ) Russian Skeleton Automatic Watches For Men Silver Stainless Steel Wrist Watch Silver Bluelans Men's Brown Leather Strap Black Case Watch Bluelans Unisex Roman Numerals Brown Faux Leather Strap Watch Three Eyes Six Steel Needle Fashion Men's Business Watch Black 2 Piece Set Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch Gift Mechanical Engraving Black Mens Watch",
@@ -973,7 +1180,7 @@
           "2 Piece Set Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch Gift",
           "Mechanical Engraving Black Mens Watch"
         ],
-        "score": 822.0097694658272
+        "score": 448.7983868329911
       }
     },
     "selectors": {
@@ -1097,7 +1304,7 @@
   },
   {
     "confidence": 1.0,
-    "score": 146.9992087041647,
+    "score": 128.5504793099926,
     "pages": {
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Casio Illuminator Digital Series Men's Black Resin Strap Casio Illuminator Men's Silver Dial Stainless Steel Strap",
@@ -1105,7 +1312,7 @@
           "Casio Illuminator Digital Series Men's Black Resin Strap",
           "Casio Illuminator Men's Silver Dial Stainless Steel Strap"
         ],
-        "score": 241.38979216251644
+        "score": 230.61744668073666
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Luxury Men Stainless Steel Band Quartz Calendar Wrist GESTORE Men's Stainless Steel Belt Sport Business Quartz Cyber Stainless Steel Band Men Quartz Wrist Watch",
@@ -1114,7 +1321,7 @@
           "GESTORE Men's Stainless Steel Belt Sport Business Quartz",
           "Cyber Stainless Steel Band Men Quartz Wrist Watch"
         ],
-        "score": 52.608625245812945
+        "score": 26.483511939248537
       }
     },
     "selectors": {
@@ -1207,7 +1414,7 @@
   },
   {
     "confidence": 0.5,
-    "score": 13.363468511813192,
+    "score": 28.827180835092083,
     "pages": {
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Full Auto Calendar (to year 2099)World map for World Time1/100-second stopwatchLC Analog display (Home city time)100-meter water… Digital watchCase/bezel material: Resin, Stainless steel 1 touch 3 fold clasp, spherical glassMulti Time (4 different cities) with…",
@@ -1215,7 +1422,7 @@
           "Full Auto Calendar (to year 2099)World map for          World Time1/100-second stopwatchLC Analog display (Home city time)100-meter water…",
           "Digital watchCase/bezel material: Resin, Stainless steel 1 touch          3 fold clasp, spherical glassMulti Time (4 different cities) with…"
         ],
-        "score": 13.363468511813192
+        "score": 28.827180835092083
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Item Shape: RoundedDial window material type: MineralDisplay Type: AnalogClasp: Fold over claspBand Material: Stainless steelBand length:… 100% Brand New. 3 Colors available: black, white, blue (choose the one you like) Material: Stainless Steel Case Diameter: approx 4.5cm Case… Color :  Blue    Length:  17.5cm/6.9inch    Watchband Width: …",
@@ -1317,7 +1524,7 @@
   },
   {
     "confidence": 0.5,
-    "score": 289.66775059501975,
+    "score": 403.5805316912892,
     "pages": {
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "casio mens watch mens black resin polyurethane strap watch black resin strap watch resin strap watch",
@@ -1328,7 +1535,7 @@
           "black resin strap watch",
           "resin strap watch"
         ],
-        "score": 289.66775059501975
+        "score": 403.5805316912892
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "stainless steel sport watch mens silver stainless steel watch stainless steel band steel strap watch mens stainless steel watches",
@@ -1411,28 +1618,35 @@
   },
   {
     "confidence": 1.0,
-    "score": 13.209753486649227,
+    "score": 11.393931686946646,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Rating & Reviews of Bluelans Faux Women's Red Leather Strap Watch",
         "text": [
           "Rating & Reviews of Bluelans Faux Women's Red Leather Strap Watch"
         ],
-        "score": 8.109302162163289
+        "score": 7.78096698957644
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "Rating & Reviews of 2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch",
+        "text": [
+          "Rating & Reviews of 2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch"
+        ],
+        "score": 7.192051811294521
       },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Rating & Reviews of Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF",
         "text": [
           "Rating & Reviews of Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF"
         ],
-        "score": 21.972245773362197
+        "score": 24.260151319598087
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "Rating & Reviews of Business About Men Stainless Steel Band Machinery Sport Quartz Watch",
         "text": [
           "Rating & Reviews of Business About Men Stainless Steel Band Machinery Sport Quartz Watch"
         ],
-        "score": 9.547712524422193
+        "score": 6.342556627317535
       }
     },
     "selectors": {
@@ -1514,8 +1728,8 @@
     }
   },
   {
-    "confidence": 0.3333333333333333,
-    "score": 38.92395510936516,
+    "confidence": 0.25,
+    "score": 35.215401779221075,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Love it! Love it! Fits perfectly...love the color and the over all appearance. Nice one... Satisfied! I was dissapointed because the watch was too big. Looking at the picture, i did not expect actual size. And the brand is Sinobi?? I haven't heard of thst brand. I will just give it away. I don't think i will wear it. Ok sa Alright!!! I really like this watch, it's beautiful. Thanks Lazada. I love it ☺ the color and overall appearance is good and its working nice product, the leather strap is high quality and it is very CLASSY!!! i received the item today. Like!",
@@ -1533,7 +1747,15 @@
           "nice product, the leather strap is high quality and it is very CLASSY!!!",
           "i received the item today. Like!"
         ],
-        "score": 38.92395510936516
+        "score": 35.215401779221075
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "Nice ung product;)Tnx Lazada.. nice",
+        "text": [
+          "Nice ung product;)Tnx Lazada..",
+          "nice"
+        ],
+        "score": 0.0
       },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Nephew liked it and fast delivery. Ganda sya... Bought mine more than a year ago. Ayos na ayos pa rin. Nice Watch. Good item. bought it a week ago with a 12% discount voucher, it's worth the price I paid for, fast delivery, limited size (downside). I like it! nice watch.. Satisfied. it is so awesome. nagustuhan ko talaga ito sobra. salamat lazada... nagustuhan ng pinsan ko.. salamat lazada... more discount to come sana hehe",
@@ -1653,28 +1875,35 @@
   },
   {
     "confidence": 1.0,
-    "score": 13.209753486649227,
+    "score": 11.393931686946646,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "{\"key\":\"bluelans-faux-womens-red-leather-strap-watch-617145.html\"}",
         "text": [
           "{\"key\":\"bluelans-faux-womens-red-leather-strap-watch-617145.html\"}"
         ],
-        "score": 8.109302162163289
+        "score": 7.78096698957644
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "{\"key\":\"2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html\"}",
+        "text": [
+          "{\"key\":\"2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html\"}"
+        ],
+        "score": 7.192051811294521
       },
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "{\"key\":\"casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html\"}",
         "text": [
           "{\"key\":\"casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html\"}"
         ],
-        "score": 21.972245773362197
+        "score": 24.260151319598087
       },
       "http://www.lazada.com.ph/business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html": {
         "content": "{\"key\":\"business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html\"}",
         "text": [
           "{\"key\":\"business-about-men-stainless-steel-band-machinery-sport-quartz-watch-815666.html\"}"
         ],
-        "score": 9.547712524422193
+        "score": 6.342556627317535
       }
     },
     "selectors": {
@@ -1698,7 +1927,7 @@
   },
   {
     "confidence": 1.0,
-    "score": 21.972245773362197,
+    "score": 24.260151319598087,
     "pages": {
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Be the first notified when your Size is available! Your Size is not available at the moment. If you'd like to be notified when you can order it again just enter your email and Size in the boxes below. Casio Illuminator Men's Black Resin Strap Watch AE-1000W-1AVDF Choose Size Subscribe to the Newsletter * *I have read and understood Lazada Privacy Policy",
@@ -1712,7 +1941,7 @@
           "*I have read and understood Lazada",
           "Privacy Policy"
         ],
-        "score": 21.972245773362197
+        "score": 24.260151319598087
       }
     },
     "selectors": {
@@ -1786,14 +2015,14 @@
   },
   {
     "confidence": 1.0,
-    "score": 21.972245773362197,
+    "score": 24.260151319598087,
     "pages": {
       "http://www.lazada.com.ph/casio-illuminator-mens-black-resin-strap-watch-ae-1000w-1avdf-436486.html": {
         "content": "Casio Illuminator Men's Black Dial Resin Strap Watch AE-1000W-1AVDF",
         "text": [
           "Casio Illuminator Men's Black Dial Resin Strap Watch AE-1000W-1AVDF"
         ],
-        "score": 21.972245773362197
+        "score": 24.260151319598087
       }
     },
     "selectors": {
@@ -1879,7 +2108,7 @@
   },
   {
     "confidence": 1.0,
-    "score": 8.109302162163289,
+    "score": 7.78096698957644,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "Be the first notified when your Size is available! Your Size is not available at the moment. If you'd like to be notified when you can order it again just enter your email and Size in the boxes below. Bluelans Faux Women's Red Leather Strap Watch Choose Size Subscribe to the Newsletter * *I have read and understood Lazada Privacy Policy",
@@ -1893,7 +2122,7 @@
           "*I have read and understood Lazada",
           "Privacy Policy"
         ],
-        "score": 8.109302162163289
+        "score": 7.78096698957644
       }
     },
     "selectors": {
@@ -1967,7 +2196,7 @@
   },
   {
     "confidence": 1.0,
-    "score": 3.288039077863309,
+    "score": 4.9656584886091,
     "pages": {
       "http://www.lazada.com.ph/bluelans-faux-womens-red-leather-strap-watch-617145.html": {
         "content": "OEM Men's Black Rubber Strap Watch Geneva Women's Rose-Gold Stainless Steel Strap Watch Bluelans Men's Beige Stainless Steel Band Watch Cowboy Chain Women's Gold Stainless Steel Strap Watch",
@@ -1977,7 +2206,17 @@
           "Bluelans Men's Beige Stainless Steel Band Watch",
           "Cowboy Chain Women's Gold Stainless Steel Strap Watch"
         ],
-        "score": 3.288039077863309
+        "score": 1.6552194962030335
+      },
+      "http://www.lazada.com.ph/2pc-gold-silver-stainless-steel-digital-alarm-stopwatch-wrist-watch-2481537.html": {
+        "content": "2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch Bluetooth Touchscreen Smart Watch (White) Queen's Secret Vanilla Lace Body Mist for Women 250ml HQT-906 Fast Hair Straightening (Light Pink) With RZ-118 Professional Hair Curler (Violet/White)",
+        "text": [
+          "2PC Gold & Silver Stainless Steel Digital Alarm Stopwatch Wrist Watch",
+          "Bluetooth Touchscreen Smart Watch (White)",
+          "Queen's Secret Vanilla Lace Body Mist for Women 250ml",
+          "HQT-906 Fast Hair Straightening (Light Pink) With RZ-118 Professional Hair Curler (Violet/White)"
+        ],
+        "score": 8.276097481015167
       }
     },
     "selectors": {
