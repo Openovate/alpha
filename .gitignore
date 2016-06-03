@@ -66,4 +66,4 @@ target/
 .python-version
 
 # ignore data
-/data/
+data/
