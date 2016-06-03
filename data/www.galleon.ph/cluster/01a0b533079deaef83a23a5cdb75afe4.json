@@ -1,0 +1,841 @@
+[
+  {
+    "confidence": 1.0,
+    "score": 72.68282710001677,
+    "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Galleon - Fossil Men's Quinn Money Clip Bifold, Brown, One Size",
+        "text": [
+          "Galleon - Fossil Men's Quinn Money Clip Bifold, Brown, One Size"
+        ],
+        "score": 48.33894070139684
+      },
+      "http://www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood": {
+        "content": "Galleon - Audio Technica ATH-M50x Professional Headphones (USED-VERYGOOD)",
+        "text": [
+          "Galleon - Audio Technica ATH-M50x Professional Headphones (USED-VERYGOOD)"
+        ],
+        "score": 37.352817814715735
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Galleon - Newly Designed Set Of 2 Hand Blown Clear Glass Self Watering Aqua Globes For Indoor Or Outdoor Plants. 1 Each Angel Fish And Bird Shaped Watering Spikes",
+        "text": [
+          "Galleon - Newly Designed Set Of 2 Hand Blown Clear Glass Self Watering Aqua Globes For Indoor Or Outdoor Plants. 1 Each Angel Fish And Bird Shaped Watering Spikes"
+        ],
+        "score": 132.35672278393773
+      }
+    },
+    "selectors": {
+      "": []
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 72.68282710001677,
+    "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Fossil Men's Quinn Money Clip Bifold, Brown, One Size",
+        "text": [
+          "Fossil Men's Quinn Money Clip Bifold, Brown, One Size"
+        ],
+        "score": 48.33894070139684
+      },
+      "http://www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood": {
+        "content": "Audio Technica ATH-M50x Professional Headphones (USED-VERYGOOD)",
+        "text": [
+          "Audio Technica ATH-M50x Professional Headphones (USED-VERYGOOD)"
+        ],
+        "score": 37.35281781471573
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Newly Designed Set of 2 Hand Blown Clear Glass Self Watering Aqua Globes for Indoor or Outdoor Plants. 1 Each Angel Fish and Bird Shaped Watering Spikes",
+        "text": [
+          "Newly Designed Set of 2 Hand Blown Clear Glass Self Watering Aqua Globes for Indoor or Outdoor Plants. 1 Each Angel Fish and Bird Shaped Watering Spikes"
+        ],
+        "score": 132.35672278393773
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div.body-content-row-middle > div.product-detail-container > div.row-fluid > div.detail-container.product-name-price.span9 > div.row-fluid > div.product-title.right-detail-container.span7 > h1": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body-content-row-middle"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-detail-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "detail-container",
+            "product-name-price",
+            "span9"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-title",
+            "right-detail-container",
+            "span7"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "h1"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 0.3333333333333333,
+    "score": 3.295836866004329,
+    "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Mens › Bags & Wallets › Wallets",
+        "text": [
+          "Mens",
+          "›",
+          "Bags & Wallets",
+          "›",
+          "Wallets"
+        ],
+        "score": 0.0
+      },
+      "http://www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood": {
+        "content": "Electronics & Computers › Computers & Laptops › Headphones",
+        "text": [
+          "Electronics & Computers",
+          "›",
+          "Computers & Laptops",
+          "›",
+          "Headphones"
+        ],
+        "score": 3.295836866004329
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Home, Garden & Tools › Patio, Lawn & Garden › Gardening",
+        "text": [
+          "Home, Garden & Tools",
+          "›",
+          "Patio, Lawn & Garden",
+          "›",
+          "Gardening"
+        ],
+        "score": 0.0
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div.body-content-row-middle > div.product-detail-container > div.row-fluid > div.detail-container.product-name-price.span9 > div.row-fluid > div.product-title.right-detail-container.span7 > div > div.span10": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body-content-row-middle"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-detail-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "detail-container",
+            "product-name-price",
+            "span9"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-title",
+            "right-detail-container",
+            "span7"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "span10"
+          ],
+          "id": "",
+          "name": "div"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 4.7606532508951425,
+    "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Brand Fossil Color Brown Department mens PackageQuantity 1 Size One Size UPC 762346311836",
+        "text": [
+          "Brand",
+          "Fossil",
+          "Color",
+          "Brown",
+          "Department",
+          "mens",
+          "PackageQuantity",
+          "1",
+          "Size",
+          "One Size",
+          "UPC",
+          "762346311836"
+        ],
+        "score": 6.591673732008658
+      },
+      "http://www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood": {
+        "content": "Brand Audio-Technica Color Black PackageQuantity 1 PublicationDate 2014-01-23 ReleaseDate 2014-02-06 Size small UPC 750408373168 Warranty 2 year warranty on parts and labor",
+        "text": [
+          "Brand",
+          "Audio-Technica",
+          "Color",
+          "Black",
+          "PackageQuantity",
+          "1",
+          "PublicationDate",
+          "2014-01-23",
+          "ReleaseDate",
+          "2014-02-06",
+          "Size",
+          "small",
+          "UPC",
+          "750408373168",
+          "Warranty",
+          "2 year warranty on parts and labor"
+        ],
+        "score": 3.295836866004329
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Brand Goodman and Wife Color Clear Glass l PackageQuantity 2 UPC 700613352137",
+        "text": [
+          "Brand",
+          "Goodman and Wife",
+          "Color",
+          "Clear Glass l",
+          "PackageQuantity",
+          "2",
+          "UPC",
+          "700613352137"
+        ],
+        "score": 4.394449154672439
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div.body-content-row-middle > div.product-detail-container > div.row-fluid > div.detail-container.product-name-price.span9 > div.row-fluid > div.product-title.right-detail-container.span7 > div.more-info.row-fluid": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body-content-row-middle"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-detail-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "detail-container",
+            "product-name-price",
+            "span9"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-title",
+            "right-detail-container",
+            "span7"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "more-info",
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 2310.5331666617694,
+    "pages": {
+      "http://www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood": {
+        "content": "Critically acclaimed sonic performance praised by top audio engineers and pro audio reviewers Proprietary 45 mm large-aperture drivers with rare earth magnets and copper-clad aluminum wire voice coils Exceptional clarity throughout an extended frequency range, with deep, accurate bass response Circumaural design contours around the ears for excellent sound isolation in loud environments 90Â° swiveling earcups for easy, one-ear monitoring, professional-grade earpad and headband material delivers more durability and comfort. Detachable cable",
+        "text": [
+          "Critically acclaimed sonic performance praised by top audio engineers and pro audio reviewers",
+          "Proprietary 45 mm large-aperture drivers with rare earth magnets and copper-clad aluminum wire voice coils",
+          "Exceptional clarity throughout an extended frequency range, with deep, accurate bass response",
+          "Circumaural design contours around the ears for excellent sound isolation in loud environments",
+          "90Â° swiveling earcups for easy, one-ear monitoring, professional-grade earpad and headband material delivers more durability and comfort. Detachable cable"
+        ],
+        "score": 793.3112929774788
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Set of 2 clear glass self watering aqua globes for plants 1 bird and 1 angel fish. Also try our mushroom, snail, swan, pig and ladybug designs Provides water to potted plants for several days For use indoor and outdoor potted plants. Easy to use, just fill with water and insert into soil Each globe holds approximately 4 ounces of liquid",
+        "text": [
+          "Set of 2 clear glass self watering aqua globes for plants 1 bird and 1 angel fish. Also try our mushroom, snail, swan, pig and ladybug designs",
+          "Provides water to potted plants for several days",
+          "For use indoor and outdoor potted plants.",
+          "Easy to use, just fill with water and insert into soil",
+          "Each globe holds approximately 4 ounces of liquid"
+        ],
+        "score": 3827.75504034606
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div.body-content-row-middle > div.product-detail-container > div.row-fluid > div.detail-container.product-name-price.span9 > div.features > ul.features > li.clearfix > span.feature-text": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body-content-row-middle"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-detail-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "detail-container",
+            "product-name-price",
+            "span9"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "features"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "features"
+          ],
+          "id": "",
+          "name": "ul"
+        },
+        {
+          "classes": [
+            "clearfix"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "feature-text"
+          ],
+          "id": "",
+          "name": "span"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 0.6666666666666666,
+    "score": 177.51760965498664,
+    "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Paying the bills just got a little more stylish with our new handsome Quinn money clip bifold. Precisely crafted, this classic essential features plenty of pockets and rich leather.",
+        "text": [
+          "Paying the bills just got a little more stylish with our new handsome Quinn money clip bifold. Precisely crafted, this classic essential features plenty of pockets and rich leather."
+        ],
+        "score": 123.68560751024921
+      },
+      "http://www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood": {
+        "content": "IMPORTANT: Please Read Electrical Guide The Ath-M50X Features The Same Coveted Sonic Signature, Now With The Added Feature Of A Detachable Cable. The M50X Provides An Unmatched Experience For The Most Critical Audio Professionals",
+        "text": [
+          "IMPORTANT:",
+          "Please                                    Read Electrical Guide",
+          "The Ath-M50X Features The Same Coveted Sonic Signature, Now With The Added Feature Of A Detachable Cable. The M50X Provides An Unmatched Experience For The Most Critical Audio Professionals"
+        ],
+        "score": 0.0
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Beautiful Hand Blown Glass bird and angel fish Shaped Self Watering Aqua Globes for indoor or outdoor use. Simply fill with water and insert into soil to water those thirsty plants or flowers. 2-Pack. 1 of each shape Includes 1- angel Fish,1- bird that each hold approximately 4 ozs of liquid Overall size measures approx.4.25\" long, 10.5 inches tall including tube.",
+        "text": [
+          "Beautiful Hand Blown Glass bird and angel fish Shaped Self Watering Aqua Globes for indoor or outdoor use. Simply fill with water and insert into soil to water those thirsty plants or flowers. 2-Pack. 1 of each shape Includes 1- angel Fish,1- bird that each hold approximately 4 ozs of liquid Overall size measures approx.4.25\" long, 10.5 inches tall including tube."
+        ],
+        "score": 231.34961179972404
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div.body-content-row-middle > div.product-detail-container > div.row-fluid > div.detail-container.product-name-price.span9 > div.features > p": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body-content-row-middle"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-detail-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "detail-container",
+            "product-name-price",
+            "span9"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "features"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 0.6666666666666666,
+    "score": 1013.837127082569,
+    "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Magic Style Wallet Dockers Men's Genuine Leather Pocketmate ID Billfo... Pacsafe Luggage Rfid-tec 100 Bi-fold Wallet (One S... Card Holder Wallet For Men - Black Leather, Credit... Dopp RFID Black Ops Front Pocket Get-Away Wallet (... Dopp Regatta 88 Series Front Getaway Pocket - Blac...",
+        "text": [
+          "Magic Style Wallet",
+          "Dockers Men's Genuine Leather Pocketmate ID Billfo...",
+          "Pacsafe Luggage Rfid-tec 100 Bi-fold Wallet (One S...",
+          "Card Holder Wallet For Men - Black Leather, Credit...",
+          "Dopp RFID Black Ops Front Pocket Get-Away Wallet (...",
+          "Dopp Regatta 88 Series Front Getaway Pocket - Blac..."
+        ],
+        "score": 869.0032517850593
+      },
+      "http://www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood": {
+        "content": "Aftershokz AS300 Wraparound Sport Headphones With ... Beats Solo 2 Wireless On-Ear Headphone - Silver (U... Sony MDRZX330BT/B Bluetooth Stereo Headset, Black Sony MDRZX770BT Bluetooth Stereo Headset (Blue) Plantronics BackBeat FIT Wireless Headphones - Ret... Plantronics BackBeat FIT Wireless Headphones - Ret...",
+        "text": [
+          "Aftershokz AS300 Wraparound Sport Headphones With ...",
+          "Beats Solo 2 Wireless On-Ear Headphone - Silver (U...",
+          "Sony MDRZX330BT/B Bluetooth Stereo Headset, Black",
+          "Sony MDRZX770BT Bluetooth Stereo Headset (Blue)",
+          "Plantronics BackBeat FIT Wireless Headphones - Ret...",
+          "Plantronics BackBeat FIT Wireless Headphones - Ret..."
+        ],
+        "score": 1158.6710023800788
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "Super Starts Complete Plant Tissue Culture Kit Zenport ZL615 Telescopic Long Reach Pruner, Extend... Antique Revival Classic Wooden Water Bucket Hydrofarm FLT24 2-Feet/4-Tube T5 Commercial Syste... Black Flag 190255 Fogging Insecticide, 32-Ounce Superthrive Gal",
+        "text": [
+          "Super Starts Complete Plant Tissue Culture Kit",
+          "Zenport ZL615 Telescopic Long Reach Pruner, Extend...",
+          "Antique Revival Classic Wooden Water Bucket",
+          "Hydrofarm  FLT24 2-Feet/4-Tube T5 Commercial Syste...",
+          "Black Flag 190255 Fogging Insecticide, 32-Ounce",
+          "Superthrive Gal"
+        ],
+        "score": 0.0
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div.body-content-row-middle > div.product-detail-container > div.related-container > div.product-vertical-list.row-fluid > div.product > div.product-name": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body-content-row-middle"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-detail-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "related-container"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-vertical-list",
+            "row-fluid"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "product-name"
+          ],
+          "id": "",
+          "name": "div"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 78.67724767561607,
+    "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1456750582421&cv=8&fst=1456750582421&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size&tiba=Galleon%20-%20Fossil%20Men's%20Quinn%20Money%20Clip%20Bifold%2C%20Brown%2C%20One%20Size\" />",
+        "text": [
+          "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1456750582421&cv=8&fst=1456750582421&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size&tiba=Galleon%20-%20Fossil%20Men's%20Quinn%20Money%20Clip%20Bifold%2C%20Brown%2C%20One%20Size\" />"
+        ],
+        "score": 54.930614433405495
+      },
+      "http://www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood": {
+        "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1456729558518&cv=8&fst=1456729558518&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood&tiba=Galleon%20-%20Audio%20Technica%20ATH-M50x%20Professional%20Headphones%20(USED-VERYGOOD)\" />",
+        "text": [
+          "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1456729558518&cv=8&fst=1456729558518&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood&tiba=Galleon%20-%20Audio%20Technica%20ATH-M50x%20Professional%20Headphones%20(USED-VERYGOOD)\" />"
+        ],
+        "score": 42.84587925805628
+      },
+      "http://www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes": {
+        "content": "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039716886&cv=8&fst=1455039716886&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes&tiba=Galleon%20-%20Newly%20Designed%20Set%20Of%202%20Hand%20Blown%20Clear%20Glass%20Self%20Watering%20Aqua%20Globes%20For%20Indoor%20\" />",
+        "text": [
+          "<img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/972687434/?frame=0&random=1455039716886&cv=8&fst=1455039716886&num=1&fmt=1&guid=ON&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=32&u_his=1&u_tz=480&u_java=false&u_nplug=0&u_nmime=0&frm=0&url=http%3A//www.galleon.ph/product/detail/7217150/newly-designed-set-of-2-hand-blown-clear-glass-self-watering-aqua-globes-for-indoor-or-outdoor-plants-1-each-angel-fish-and-bird-shaped-watering-spikes&tiba=Galleon%20-%20Newly%20Designed%20Set%20Of%202%20Hand%20Blown%20Clear%20Glass%20Self%20Watering%20Aqua%20Globes%20For%20Indoor%20\" />"
+        ],
+        "score": 138.25524933538642
+      }
+    },
+    "selectors": {
+      "iframe": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "iframe"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 48.33894070139684,
+    "pages": {
+      "http://www.galleon.ph/product/detail/7568295/fossil-mens-quinn-money-clip-bifold-brown-one-size": {
+        "content": "Fossil Men's Quinn Money Clip Bifold, Brown, One Size",
+        "text": [
+          "Fossil Men's Quinn Money Clip Bifold, Brown, One Size"
+        ],
+        "score": 48.33894070139684
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div#product-variation-modal.fade.hide.modal > div.modal-body > div.variant-body > a > div.product-variant": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "fade",
+            "hide",
+            "modal"
+          ],
+          "id": "product-variation-modal",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "modal-body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "variant-body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "a"
+        },
+        {
+          "classes": [
+            "product-variant"
+          ],
+          "id": "",
+          "name": "div"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 6285.790187911927,
+    "pages": {
+      "http://www.galleon.ph/product/detail/2803338/audio-technica-ath-m50x-professional-headphones-used-verygood": {
+        "content": "Audio-Technica ATH-M50xWH Professional Studio Monitor Headphones Audio-Technica ATH-M50xDG LIMITED EDITION Professional Studio Monitor Headphones Audio-Technica ATH-M50xMG Limited Edition Professional Studio Monitor Headphones",
+        "text": [
+          "Audio-Technica ATH-M50xWH Professional Studio Monitor Headphones",
+          "Audio-Technica ATH-M50xDG LIMITED EDITION Professional Studio Monitor Headphones",
+          "Audio-Technica ATH-M50xMG Limited Edition Professional Studio Monitor Headphones"
+        ],
+        "score": 6285.790187911927
+      }
+    },
+    "selectors": {
+      "div.page > div.body > div#product-variation-modal.fade.hide.modal > div.modal-body > div.variant-body > a > div.product-variant": [
+        {
+          "classes": [
+            "page"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "fade",
+            "hide",
+            "modal"
+          ],
+          "id": "product-variation-modal",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "modal-body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "variant-body"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "a"
+        },
+        {
+          "classes": [
+            "product-variant"
+          ],
+          "id": "",
+          "name": "div"
+        }
+      ]
+    }
+  }
+]

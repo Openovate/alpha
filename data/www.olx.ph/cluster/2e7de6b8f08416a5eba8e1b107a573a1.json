@@ -1,0 +1,670 @@
+[
+  {
+    "confidence": 1.0,
+    "score": 21.83413618763828,
+    "pages": {
+      "https://www.olx.ph/item/android-smartphone-starmobile-quest-ID7a9fV.html?p=3&h=d87ad13fbe#d87ad13fbe": {
+        "content": "Android Smartphone - Starmobile Quest",
+        "text": [
+          "Android Smartphone - Starmobile Quest"
+        ],
+        "score": 24.95329850015803
+      },
+      "https://www.olx.ph/item/honda-cb125-with-sidecar-tricycle-ID6ZJRE.html?p=6&h=fdf3ca9447#fdf3ca9447": {
+        "content": "Honda CB125 with Sidecar / Tricycle",
+        "text": [
+          "Honda CB125 with Sidecar / Tricycle"
+        ],
+        "score": 18.714973875118524
+      }
+    },
+    "selectors": {
+      "div#innerLayout > section#body-container.containerx > div.rel.wrapper > div#offer_active.content > div.clr.offerbody > div.fleft.offercontent.rel > div.offercontentinner > div.clr.offerheadinner > h1.brkword.lheight28": [
+        {
+          "classes": [],
+          "id": "innerLayout",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "containerx"
+          ],
+          "id": "body-container",
+          "name": "section"
+        },
+        {
+          "classes": [
+            "rel",
+            "wrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "offer_active",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clr",
+            "offerbody"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "fleft",
+            "offercontent",
+            "rel"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "offercontentinner"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clr",
+            "offerheadinner"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "brkword",
+            "lheight28"
+          ],
+          "id": "",
+          "name": "h1"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 15.942385152878742,
+    "pages": {
+      "https://www.olx.ph/item/android-smartphone-starmobile-quest-ID7a9fV.html?p=3&h=d87ad13fbe#d87ad13fbe": {
+        "content": "Starmobile Quest in Perfect Condition 98% smooth, screen protected Quick spec: 4.5\" , android 4.3 jellybean , Quadcore , 1GB ram , dual sim , malinaw cam (5mp & 12mp) , at sobrang tagal po malowbatt. Di nmn ako gamer dahil busy sa work kaya superb battery life No issue. 100% walang sakit sa ulo, gagamitin nalang. May FREE NET modded application na din po. Net all u want, as in free kahit walang load. turo ko nalang po pano. Bonus na =) Package: Complete with box, receipt, charger, earphone and the unit itself. Di ka po lugi, pramis ;) Bigay ko 2.5k pag kukunin today! RFS: need additional fund lang po for the upcoming valentines day Meet up around QC. Thank You for viewing my ad!",
+        "text": [
+          "Starmobile Quest in Perfect Condition",
+          "98% smooth, screen protected",
+          "Quick spec:",
+          "4.5\" , android 4.3 jellybean , Quadcore , 1GB ram , dual sim , malinaw cam (5mp & 12mp) , at sobrang tagal po malowbatt. Di nmn ako gamer dahil busy sa work kaya superb battery life",
+          "No issue. 100% walang sakit sa ulo, gagamitin nalang. May FREE NET modded application na din po. Net all u want, as in free kahit walang load. turo ko nalang po pano. Bonus na =)",
+          "Package: Complete with box, receipt, charger, earphone and the unit itself. Di ka po lugi, pramis ;)",
+          "Bigay ko 2.5k pag kukunin today!",
+          "RFS: need additional fund lang po for the upcoming valentines day",
+          "Meet up around QC. Thank You for viewing my ad!"
+        ],
+        "score": 18.714973875118524
+      },
+      "https://www.olx.ph/item/honda-cb125-with-sidecar-tricycle-ID6ZJRE.html?p=6&h=fdf3ca9447#fdf3ca9447": {
+        "content": "Honda CB125 with Heavy duty sidecar. Electric start 2014 Model with Complete papers, 1st owner po ako.. 16,700 KMs palang ang tinakbo... excellent condition, wala po issue, gagamitin na lang agad.. perfect pang personal service sa trabaho, eskuwela sa mga bata at sa lakad ng pamilya. Hindi ka mababasa kahit umuulan. Meron na ring wind shield para iwas bugbog sa hangin at puwing sa mata. Maluwag ang sidecar at kumpleto ang carrier sa baba at taas. Matipid sa gasolina. Meron pang additional tarapal para siguradong walang basa ang driver. Reason for Selling: upgrade po, nakabili na ng four wheels. for faster transaction: contact me at 0922-921-3472.",
+        "text": [
+          "Honda CB125 with Heavy duty sidecar.",
+          "Electric start 2014 Model with Complete papers, 1st owner po ako..",
+          "16,700 KMs palang ang tinakbo...",
+          "excellent condition, wala po issue, gagamitin na lang agad.. perfect pang personal service sa trabaho, eskuwela sa mga bata at sa lakad ng pamilya.",
+          "Hindi ka mababasa kahit umuulan. Meron na ring wind shield para iwas bugbog sa hangin at puwing sa mata.",
+          "Maluwag ang sidecar at kumpleto ang carrier sa baba at taas.",
+          "Matipid sa gasolina. Meron pang additional tarapal para siguradong walang basa ang driver.",
+          "Reason for Selling: upgrade po, nakabili na ng four wheels.",
+          "for faster transaction: contact me at 0922-921-3472."
+        ],
+        "score": 13.16979643063896
+      }
+    },
+    "selectors": {
+      "div#innerLayout > section#body-container.containerx > div.rel.wrapper > div#offer_active.content > div.clr.offerbody > div.fleft.offercontent.rel > div.offercontentinner > div#offerdescription.offerdescription.clr > div.descriptioncontent.marginbott20.clr > div#textContent.clr > p.large.lheight20": [
+        {
+          "classes": [],
+          "id": "innerLayout",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "containerx"
+          ],
+          "id": "body-container",
+          "name": "section"
+        },
+        {
+          "classes": [
+            "rel",
+            "wrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "offer_active",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clr",
+            "offerbody"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "fleft",
+            "offercontent",
+            "rel"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "offercontentinner"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "offerdescription",
+            "clr"
+          ],
+          "id": "offerdescription",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "descriptioncontent",
+            "marginbott20",
+            "clr"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clr"
+          ],
+          "id": "textContent",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "large",
+            "lheight20"
+          ],
+          "id": "",
+          "name": "p"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 0.5,
+    "score": 6.238324625039508,
+    "pages": {
+      "https://www.olx.ph/item/android-smartphone-starmobile-quest-ID7a9fV.html?p=3&h=d87ad13fbe#d87ad13fbe": {
+        "content": "Ad ID: 105853216 Date Created: 10 February 2016 Category: Mobile Phones and Smartphones Short URL:",
+        "text": [
+          "Ad ID:",
+          "105853216",
+          "Date Created:",
+          "10 February 2016",
+          "Category:",
+          "Mobile Phones and Smartphones",
+          "Short URL:"
+        ],
+        "score": 6.238324625039508
+      },
+      "https://www.olx.ph/item/honda-cb125-with-sidecar-tricycle-ID6ZJRE.html?p=6&h=fdf3ca9447#fdf3ca9447": {
+        "content": "Ad ID: 103372330 Date Created: 4 November 2015 Category: Motorcycles and Scooters Short URL:",
+        "text": [
+          "Ad ID:",
+          "103372330",
+          "Date Created:",
+          "4 November 2015",
+          "Category:",
+          "Motorcycles and Scooters",
+          "Short URL:"
+        ],
+        "score": 0.0
+      }
+    },
+    "selectors": {
+      "div#innerLayout > section#body-container.containerx > div.rel.wrapper > div#offer_active.content > div.clr.offerbody > div#offerbox.offerbox.zi2.fright.rel > div#offeractions.offeractions > div#adDetails.clearfix > ul.details-sub.kvlist > li.more-details": [
+        {
+          "classes": [],
+          "id": "innerLayout",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "containerx"
+          ],
+          "id": "body-container",
+          "name": "section"
+        },
+        {
+          "classes": [
+            "rel",
+            "wrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "offer_active",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clr",
+            "offerbody"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "offerbox",
+            "zi2",
+            "fright",
+            "rel"
+          ],
+          "id": "offerbox",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "offeractions"
+          ],
+          "id": "offeractions",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clearfix"
+          ],
+          "id": "adDetails",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "details-sub",
+            "kvlist"
+          ],
+          "id": "",
+          "name": "ul"
+        },
+        {
+          "classes": [
+            "more-details"
+          ],
+          "id": "",
+          "name": "li"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 26636.31509162512,
+    "pages": {
+      "https://www.olx.ph/item/honda-cb125-with-sidecar-tricycle-ID6ZJRE.html?p=6&h=fdf3ca9447#fdf3ca9447": {
+        "content": "Kawasaki fury tricycle 150cc motorcycle fresh low mile good 4 side car or side cart 18t only Honda xrm 125 with stainless sidecar pure stainless side car for tmx 155 2008 Yamaha SR150 Tricycle Sidecar Continental (brand new) Honda Tricycle with Sidecar and Franchise Honda tmx contact point 155 HONDA XRM 110 (Tricycle) Sidecar Galvanized side car volvo tricycle sidecar Tricycle with sidecar negotiable Toyota wagon suv Tmx 125 contactpoint. Sidecar for sale TRICYCLE with franchise Sidecar only Quality Sidecar Multicab latest model Nail Salon & Spa Internet cafe Nike Lebron Soldier IX (Brand New) 3 bedroom installment house and lot at urdaneta city Sharp refrigerator Yamma Diesel Engine Pump 4\" x 4\" Engine Water Pump Hover Board 2016 Chrome Edtn. (HoverTrax) mini segway g4 portable rice mill ricemill milling machine grinder dehusker home",
+        "text": [
+          "Kawasaki fury tricycle",
+          "150cc motorcycle fresh low mile good 4 side car or side cart 18t only",
+          "Honda xrm 125 with stainless sidecar",
+          "pure stainless side car for tmx 155",
+          "2008 Yamaha SR150 Tricycle",
+          "Sidecar Continental (brand new)",
+          "Honda Tricycle with Sidecar and Franchise",
+          "Honda tmx contact point 155",
+          "HONDA XRM 110 (Tricycle)",
+          "Sidecar Galvanized",
+          "side car volvo tricycle sidecar",
+          "Tricycle with sidecar negotiable",
+          "Toyota wagon suv",
+          "Tmx 125 contactpoint.",
+          "Sidecar for sale",
+          "TRICYCLE with franchise",
+          "Sidecar only",
+          "Quality Sidecar",
+          "Multicab latest model",
+          "Nail Salon & Spa",
+          "Internet cafe",
+          "Nike Lebron Soldier IX (Brand New)",
+          "3 bedroom installment house and lot at urdaneta city",
+          "Sharp refrigerator",
+          "Yamma Diesel Engine Pump 4\" x 4\" Engine Water Pump",
+          "Hover Board 2016 Chrome Edtn. (HoverTrax) mini segway",
+          "g4 portable rice mill ricemill milling machine grinder dehusker home"
+        ],
+        "score": 26636.31509162512
+      }
+    },
+    "selectors": {
+      "div#innerLayout > section#body-container.containerx > div.rel.wrapper > div#offer_active.content > div#descEnd.clr.offerbody > div > div.clm-samurai > div > div.with-carousel.samurai-suggestions > div.clm-carrusel-box.samurai-related > ul.samurai-items > li.samurai-item.desktop-small > a > span.title": [
+        {
+          "classes": [],
+          "id": "innerLayout",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "containerx"
+          ],
+          "id": "body-container",
+          "name": "section"
+        },
+        {
+          "classes": [
+            "rel",
+            "wrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "offer_active",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clr",
+            "offerbody"
+          ],
+          "id": "descEnd",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clm-samurai"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "with-carousel",
+            "samurai-suggestions"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clm-carrusel-box",
+            "samurai-related"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "samurai-items"
+          ],
+          "id": "",
+          "name": "ul"
+        },
+        {
+          "classes": [
+            "samurai-item",
+            "desktop-small"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "a"
+        },
+        {
+          "classes": [
+            "title"
+          ],
+          "id": "",
+          "name": "span"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 18.714973875118524,
+    "pages": {
+      "https://www.olx.ph/item/android-smartphone-starmobile-quest-ID7a9fV.html?p=3&h=d87ad13fbe#d87ad13fbe": {
+        "content": "Automatic Keywords: quest starmobile smartphone android",
+        "text": [
+          "Automatic Keywords:",
+          "quest",
+          "starmobile",
+          "smartphone",
+          "android"
+        ],
+        "score": 24.95329850015803
+      },
+      "https://www.olx.ph/item/honda-cb125-with-sidecar-tricycle-ID6ZJRE.html?p=6&h=fdf3ca9447#fdf3ca9447": {
+        "content": "Automatic Keywords: honda sidecar motorcycleredirectedtrue scooterredirectedtrue hondanext2041",
+        "text": [
+          "Automatic Keywords:",
+          "honda",
+          "sidecar",
+          "motorcycleredirectedtrue",
+          "scooterredirectedtrue",
+          "hondanext2041"
+        ],
+        "score": 12.476649250079015
+      }
+    },
+    "selectors": {
+      "div#innerLayout > section#body-container.containerx > div.rel.wrapper > div#offer_active.content > div#descEnd.clr.offerbody > div > div#auto-keywords > div.auto-keywords": [
+        {
+          "classes": [],
+          "id": "innerLayout",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "containerx"
+          ],
+          "id": "body-container",
+          "name": "section"
+        },
+        {
+          "classes": [
+            "rel",
+            "wrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "offer_active",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clr",
+            "offerbody"
+          ],
+          "id": "descEnd",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "auto-keywords",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "auto-keywords"
+          ],
+          "id": "",
+          "name": "div"
+        }
+      ]
+    }
+  },
+  {
+    "confidence": 1.0,
+    "score": 172.96308501055248,
+    "pages": {
+      "https://www.olx.ph/item/android-smartphone-starmobile-quest-ID7a9fV.html?p=3&h=d87ad13fbe#d87ad13fbe": {
+        "content": "Ads Quezon City » Mobile Phones and Tablets Quezon City » Mobile Phones and Smartphones Quezon City",
+        "text": [
+          "Ads Quezon City",
+          "»",
+          "Mobile Phones and Tablets Quezon City",
+          "»",
+          "Mobile Phones and Smartphones Quezon City"
+        ],
+        "score": 138.37046800844197
+      },
+      "https://www.olx.ph/item/honda-cb125-with-sidecar-tricycle-ID6ZJRE.html?p=6&h=fdf3ca9447#fdf3ca9447": {
+        "content": "Ads San Carlos City » Cars and Automotives San Carlos City » Motorcycles and Scooters San Carlos City",
+        "text": [
+          "Ads San Carlos City",
+          "»",
+          "Cars and Automotives San Carlos City",
+          "»",
+          "Motorcycles and Scooters San Carlos City"
+        ],
+        "score": 207.55570201266298
+      }
+    },
+    "selectors": {
+      "div#innerLayout > section#body-container.containerx > div.rel.wrapper > div#offer_active.content > div#descEnd.clr.offerbody > div > div.rel.breadcrumbbox > table#breadcrumbTop.small.breadcrumb.leftActive.rightActive > tbody > tr > td.middle > ul > li.pding3.inlblk.overh": [
+        {
+          "classes": [],
+          "id": "innerLayout",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "containerx"
+          ],
+          "id": "body-container",
+          "name": "section"
+        },
+        {
+          "classes": [
+            "rel",
+            "wrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "offer_active",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "clr",
+            "offerbody"
+          ],
+          "id": "descEnd",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "rel",
+            "breadcrumbbox"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "small",
+            "breadcrumb",
+            "leftActive",
+            "rightActive"
+          ],
+          "id": "breadcrumbTop",
+          "name": "table"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "tbody"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "tr"
+        },
+        {
+          "classes": [
+            "middle"
+          ],
+          "id": "",
+          "name": "td"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "ul"
+        },
+        {
+          "classes": [
+            "pding3",
+            "inlblk",
+            "overh"
+          ],
+          "id": "",
+          "name": "li"
+        }
+      ]
+    }
+  }
+]

@@ -3,7 +3,10 @@
 import os
 import sys
 import argparse
+<<<<<<< HEAD
 import time
+=======
+>>>>>>> 18ba95863bdf0eeaf06a033dc8ca7d24bdab4eed
 
 sys.path.append('..')
 
@@ -67,8 +70,11 @@ def get_title(raw, clustered):
     # get the text data
     texts = raw['texts']
 
+<<<<<<< HEAD
     max = 0;
 
+=======
+>>>>>>> 18ba95863bdf0eeaf06a033dc8ca7d24bdab4eed
     # iterate on each text data
     for text in texts:
         # get selectors
