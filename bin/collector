@@ -3,6 +3,7 @@
 import os
 import sys
 import argparse
+import time
 
 sys.path.append('..')
 
@@ -66,6 +67,8 @@ def get_title(raw, clustered):
     # get the text data
     texts = raw['texts']
 
+    max = 0;
+
     # iterate on each text data
     for text in texts:
         # get selectors
@@ -94,8 +97,13 @@ def get_title(raw, clustered):
         # join consolidated selectors
         target = ','.join(target)
 
+        # we're not supposed to do this
+        consolidated_prepost = consolidated.split(' > ')[0] + ' ' + consolidated.split(' > ')[-1]
+        target_prepost = target.split(' > ')[0] + ' ' + target.split(' > ')[-1]
+
         # are they equal?
-        if target == consolidated:
+        if(target == consolidated 
+        or consolidated_prepost == target_prepost):
             print 'Title: ' + ''.join(text['text'])
 
 # argument parser
