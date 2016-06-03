@@ -38,6 +38,11 @@ def main(args):
         print 'not enough data for clustering, please extract atleast 3 different pages in ' + args.site
         sys.exit()
 
+    # if we have enough clustered data
+    if len(urls) >= 10:
+        print 'we have enough clustered data, going to skip clustering for ' + args.site
+        sys.exit()
+
     # keep track of last clustered id
     latest = ''
 

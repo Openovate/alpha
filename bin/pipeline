@@ -3,11 +3,47 @@
 import os
 import sys
 import argparse
+import subprocess
 
 sys.path.append('..');
 
+from alpha.lib import utils
+
 def main(args):
-    
+    # get extractor path
+    extractor   = os.path.join(utils.root, 'bin', 'extractor')
+    # get clusterer path
+    clusterer   = os.path.join(utils.root, 'bin', 'clusterer')
+    # get collector path
+    collector   = os.path.join(utils.root, 'bin', 'collector')
+    # get the domain
+    site        = utils.parse_url(args.url).netloc
+    # get the site path
+    path        = utils.get_data_path(site)
+    # generate the id
+    id          = utils.generate_id(utils.parse_url(args.url).path)
+
+    # extract webpage
+    print '[pipeline] Executing extractor ...'
+    subprocess.call('"%(extractor)s" -u "%(url)s"' % {
+        'extractor' : extractor,
+        'url'       : args.url
+    }, shell=True)
+
+    # cluster webpage
+    print '[pipeline] Executing clusterer ...'
+    subprocess.call('"%(clusterer)s" -s "%(site)s"' % {
+        'clusterer' : clusterer,
+        'site'      : site
+    }, shell=True)
+
+    # collect data from webpage
+    print '[pipeline] Executing collector ...'
+    subprocess.call('"%(collector)s" -u "%(site)s" -id "%(id)s"' % {
+        'collector' : collector,
+        'site'      : site,
+        'id'        : id
+    }, shell=True)
 
 # argument parser
 def parse_args():

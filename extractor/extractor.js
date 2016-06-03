@@ -394,7 +394,7 @@ page.onLoadFinished = function(status) {
     // save output
     fs.write(output, JSON.stringify(data, undefined, 4));
     // render page
-    page.render(render);
+    // page.render(render);
 
     return phantom.exit();
 };

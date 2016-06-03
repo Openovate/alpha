@@ -37,7 +37,7 @@ def main(args):
         os.makedirs(path['raw'])
 
     # target exists?
-    if os.path.exists(target) and (id in urls):
+    if os.path.exists(target + '.json') and (id in urls):
         print 'site already extracted.'
         sys.exit()
 
